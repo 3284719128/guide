@@ -1,12 +1,10 @@
 # guide
 
-由于demo比较多，我就把所有的都合并到这个项目中，因此很抱歉您需要下载整个repo才能查看其中的某一个demo。
-
-不过都是些源码，下载速度非常快。我更建议您使用`git clone`，这样以后更新时只要`git pull`就可以了，避免了重复下载的麻烦。
+由于demo比较多，就把所有的都合并到这个项目中.
 
 # 快速索引
 
-这些demo都是用来配合我的博客，你可以选择在简书或我的个人博客阅读文章，水平有限欢迎指正。
+收藏的简书或个人博客阅读文章.
 
 * iOS 高效添加圆角效果实战讲解 [简书](http://www.jianshu.com/p/f970872fdc22)、[bestswifter](http://bestswifter.com/efficient-rounded-corner/)
 * 当 `UIColor` 遇上 Swift [简书](http://www.jianshu.com/p/f2173235cde8)、[bestswifter](http://bestswifter.com/uicolorliteral/)
