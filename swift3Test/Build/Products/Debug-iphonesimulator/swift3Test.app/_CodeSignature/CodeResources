@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		9VwD6gMOa8O1J5xEg4mZCXaTaZg=
+		slzY+FA6TTfMJ7+qfezYSSmAl0g=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		5DEoTALI+CXrNWSsF2czsS2mhIk=
+		L6U2nbUE6C26jRJlwkW4G9FQK5g=
 		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
@@ -274,11 +274,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9VwD6gMOa8O1J5xEg4mZCXaTaZg=
+			slzY+FA6TTfMJ7+qfezYSSmAl0g=
 			</data>
 			<key>hash2</key>
 			<data>
-			i0k7+0wXKKJrPA4PSI4hXTl3yqVL0XlF5eS6h1FQecE=
+			com3l4YZKLqJT26bTJsM5xcDrv8W588xPCOnBSXkvt4=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -296,11 +296,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5DEoTALI+CXrNWSsF2czsS2mhIk=
+			L6U2nbUE6C26jRJlwkW4G9FQK5g=
 			</data>
 			<key>hash2</key>
 			<data>
-			A67oyT7WfxFwAYkp99/c78GpBJ51IgEf6Qz444flhUY=
+			d6y0rXehv/r4kUrLTKBpUs7SurslajfOXFTnorubG/k=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>

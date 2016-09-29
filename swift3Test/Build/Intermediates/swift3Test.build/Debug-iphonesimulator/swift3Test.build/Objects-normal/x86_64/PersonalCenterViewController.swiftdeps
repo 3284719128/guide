@@ -6,25 +6,25 @@ provides-nominal:
 provides-member:
 - ["C10swift3Test28PersonalCenterViewController", ""]
 provides-dynamic-lookup:
-- "viewWillAppear"
 - "viewDidLoad"
-- "didReceiveMemoryWarning"
+- "viewWillAppear"
 - "drawView"
+- "didReceiveMemoryWarning"
 depends-top-level:
-- !private "ScreenWidth"
-- !private "ScreenHeight"
-- !private "TabBarHight"
-- "AssignmentPrecedence"
 - "Bool"
-- !private "NavigationBarHeight"
 - !private "BooleanLiteralType"
 - "BaseViewController"
-- !private "getMainTabBarController"
-- !private "-"
 - !private "StringLiteralType"
+- !private "ScreenWidth"
+- !private "-"
 - !private "PersonalCenterView"
+- !private "NavigationBarHeight"
 - !private "CGRect"
+- !private "getMainTabBarController"
 - "PersonalCenterViewController"
+- !private "TabBarHight"
+- "AssignmentPrecedence"
+- !private "ScreenHeight"
 depends-member:
 - !private ["Ps9AnyObject", "CGRect"]
 - !private ["Ps9AnyObject", "NavigationBarHeight"]
@@ -593,9 +593,9 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
-- "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/swift3Test-Bridging-Header.h"
-- "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/base/Common.h"
-- "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/home/\u63D0\u8D27\u901A\u77E5/DeliveryNoticeViewController.h"
+- "/Users/a43696467/Documents/guide/swift3Test/swift3Test/swift3Test-Bridging-Header.h"
+- "/Users/a43696467/Documents/guide/swift3Test/swift3Test/base/Common.h"
+- "/Users/a43696467/Documents/guide/swift3Test/swift3Test/home/\u63D0\u8D27\u901A\u77E5/DeliveryNoticeViewController.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
@@ -603,10 +603,10 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-- "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/public/OCBaseViewController/OCBaseViewController.h"
-- "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/public/customAlertViewEvent/customAlertViewEvent.h"
-- "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/public/JHChart/JHRingChart.h"
-- "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/public/JHChart/JHChart.h"
-- "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/public/JHChart/JHLineChart.h"
+- "/Users/a43696467/Documents/guide/swift3Test/swift3Test/public/OCBaseViewController/OCBaseViewController.h"
+- "/Users/a43696467/Documents/guide/swift3Test/swift3Test/public/customAlertViewEvent/customAlertViewEvent.h"
+- "/Users/a43696467/Documents/guide/swift3Test/swift3Test/public/JHChart/JHRingChart.h"
+- "/Users/a43696467/Documents/guide/swift3Test/swift3Test/public/JHChart/JHChart.h"
+- "/Users/a43696467/Documents/guide/swift3Test/swift3Test/public/JHChart/JHLineChart.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 interface-hash: "0c2129d650594e27b568c868d26518c1"
