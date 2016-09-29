@@ -1,0 +1,15 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.43.6 clang-800.0.38)"
+options: "b790d1e1353851dfb7c8febcc3dd56a8"
+build_time: [528285196, 512749000]
+inputs:
+  "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/base/BaseRequest.swift": [528278863, 0]
+  "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/home/selectBusiness/selectBusinessViewController.swift": [528281389, 0]
+  "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/home/Task/TaskTableViewController.swift": [528278863, 0]
+  "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/AppDelegate.swift": [528261759, 0]
+  "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/home/Task/TadkTableViewCell.swift": [528273809, 0]
+  "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/MainTabBarController.swift": [528262848, 0]
+  "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/base/CommonSwift.swift": [528262848, 0]
+  "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/home/HomePageViewController.swift": [528282755, 0]
+  "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/base/BaseViewController.swift": [528273990, 0]
+  "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/home/selectBusiness/selectBusinessViewCell.swift": [528274862, 0]
+  "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/home/CheckInfo/CheckInfoViewController.swift": [528281414, 0]

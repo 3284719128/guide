@@ -1,0 +1,10 @@
+platform :ios, '8.0'
+
+target 'swift3Test' do
+	pod 'AFNetworking'
+	pod 'PureLayout'
+	pod 'IQKeyboardManager'
+	pod 'MBProgressHUD'
+	pod 'MJRefresh'
+        pod 'SBJson'
+end

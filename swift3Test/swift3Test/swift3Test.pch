@@ -1,0 +1,34 @@
+//
+//  swift3Test.pch
+//  swift3Test
+//
+//  Created by 43696467 on 2016/9/27.
+//  Copyright © 2016年 team1. All rights reserved.
+//
+
+#ifndef swift3Test_pch
+#define swift3Test_pch
+
+#ifdef __OBJC__
+
+
+#import "Common.h"
+#import "AppDefind.h"
+
+#import "Utils.h"
+
+#import "Controls.h"
+#import "commonUIMethods.h"
+
+#import "customAlertViewEvent.h"
+
+#import "OCBaseViewController.h"
+
+#import "NSDictionary+ChangeNull.h"
+
+#import "PureLayout.h"
+#import "MBProgressHUD.h"
+
+#endif
+
+#endif /* swift3Test_pch */

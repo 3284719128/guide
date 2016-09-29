@@ -1,0 +1,20 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.43.6 clang-800.0.38)"
+options: "43e061cc71f47293ab3facb5f6875007"
+build_time: [528436844, 471512000]
+inputs:
+  "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/base/BaseRequest.swift": [528278863, 0]
+  "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/home/selectBusiness/selectBusinessViewController.swift": [528348017, 0]
+  "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/PersonalCenter/PersonalCenterView.swift": [528365193, 0]
+  "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/PersonalCenter/PersonalCenterViewController.swift": [528365209, 0]
+  "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/home/Task/TaskTableViewController.swift": [528360857, 0]
+  "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/AppDelegate.swift": [528261759, 0]
+  "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/home/Task/TadkTableViewCell.swift": [528273809, 0]
+  "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/MainTabBarController.swift": [528369548, 0]
+  "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/home/Task/TaskDetailView.swift": [528360857, 0]
+  "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/base/CommonSwift.swift": [528262848, 0]
+  "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/home/HomePageViewController.swift": [528436482, 0]
+  "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/home/Task/TaskDetailViewController.swift": [527936615, 0]
+  "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/base/BaseViewController.swift": [528369548, 0]
+  "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/home/selectBusiness/selectBusinessViewCell.swift": [528274862, 0]
+  "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/Analysis/AnalysisViewController.swift": [528436239, 0]
+  "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/home/CheckInfo/CheckInfoViewController.swift": [528436137, 0]

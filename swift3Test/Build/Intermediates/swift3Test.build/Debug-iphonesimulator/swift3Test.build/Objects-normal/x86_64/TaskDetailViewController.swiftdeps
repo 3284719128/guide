@@ -1,0 +1,514 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TaskDetailViewController"
+provides-nominal:
+- "C10swift3Test24TaskDetailViewController"
+provides-member:
+- ["C10swift3Test24TaskDetailViewController", ""]
+provides-dynamic-lookup:
+- "viewDidLoad"
+- "drawView"
+- "paramsDict"
+- "didReceiveMemoryWarning"
+depends-top-level:
+- !private "ScreenHeight"
+- !private "ScreenWidth"
+- "AnyObject"
+- !private "TaskDetailView"
+- "AssignmentPrecedence"
+- "TaskDetailViewController"
+- "Dictionary"
+- !private "NavigationBarHeight"
+- "BaseViewController"
+- !private "-"
+- !private "fatalError"
+- !private "CGRect"
+- "String"
+- !private "StringLiteralType"
+- "NSCoder"
+depends-member:
+- !private ["Ps9AnyObject", "CGRect"]
+- !private ["Ps9AnyObject", "NavigationBarHeight"]
+- !private ["Ps9AnyObject", "ScreenHeight"]
+- !private ["Ps9AnyObject", "ScreenWidth"]
+- !private ["Ps9AnyObject", "TaskDetailView"]
+- !private ["Ps9AnyObject", "addSubview"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- ["Ps9AnyObject", "drawView"]
+- !private ["Ps9AnyObject", "fatalError"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "paramsDict"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "titleLabel"]
+- !private ["Ps9AnyObject", "view"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- ["C10swift3Test18BaseViewController", "AnyObject"]
+- !private ["C10swift3Test18BaseViewController", "CGRect"]
+- ["C10swift3Test18BaseViewController", "Dictionary"]
+- ["C10swift3Test18BaseViewController", "NSCoder"]
+- !private ["C10swift3Test18BaseViewController", "NavigationBarHeight"]
+- !private ["C10swift3Test18BaseViewController", "ScreenHeight"]
+- !private ["C10swift3Test18BaseViewController", "ScreenWidth"]
+- ["C10swift3Test18BaseViewController", "String"]
+- !private ["C10swift3Test18BaseViewController", "TaskDetailView"]
+- ["C10swift3Test18BaseViewController", "deinit"]
+- ["C10swift3Test18BaseViewController", "didReceiveMemoryWarning"]
+- ["C10swift3Test18BaseViewController", "drawView"]
+- !private ["C10swift3Test18BaseViewController", "fatalError"]
+- ["C10swift3Test18BaseViewController", "init"]
+- ["C10swift3Test18BaseViewController", "paramsDict"]
+- !private ["C10swift3Test18BaseViewController", "titleLabel"]
+- !private ["C10swift3Test18BaseViewController", "view"]
+- ["C10swift3Test18BaseViewController", "viewDidLoad"]
+- ["C10swift3Test18BaseViewController", ""]
+- !private ["PSo15CALayerDelegate", "addSubview"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "text"]
+- ["VSC6CGRect", "deinit"]
+- !private ["VSC6CGRect", "init"]
+- !private ["Ps7CVarArg", "CGRect"]
+- !private ["Ps7CVarArg", "NavigationBarHeight"]
+- !private ["Ps7CVarArg", "ScreenHeight"]
+- !private ["Ps7CVarArg", "ScreenWidth"]
+- !private ["Ps7CVarArg", "TaskDetailView"]
+- !private ["Ps7CVarArg", "addSubview"]
+- ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- ["Ps7CVarArg", "drawView"]
+- !private ["Ps7CVarArg", "fatalError"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "paramsDict"]
+- !private ["Ps7CVarArg", "text"]
+- !private ["Ps7CVarArg", "titleLabel"]
+- !private ["Ps7CVarArg", "view"]
+- ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "CGRect"]
+- !private ["Ps28CustomDebugStringConvertible", "NavigationBarHeight"]
+- !private ["Ps28CustomDebugStringConvertible", "ScreenHeight"]
+- !private ["Ps28CustomDebugStringConvertible", "ScreenWidth"]
+- !private ["Ps28CustomDebugStringConvertible", "TaskDetailView"]
+- !private ["Ps28CustomDebugStringConvertible", "addSubview"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "drawView"]
+- !private ["Ps28CustomDebugStringConvertible", "fatalError"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "paramsDict"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "titleLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "CGRect"]
+- !private ["Ps23CustomStringConvertible", "NavigationBarHeight"]
+- !private ["Ps23CustomStringConvertible", "ScreenHeight"]
+- !private ["Ps23CustomStringConvertible", "ScreenWidth"]
+- !private ["Ps23CustomStringConvertible", "TaskDetailView"]
+- !private ["Ps23CustomStringConvertible", "addSubview"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "drawView"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "paramsDict"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "titleLabel"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Sd", "deinit"]
+- !private ["Ps9Equatable", "CGRect"]
+- !private ["Ps9Equatable", "NavigationBarHeight"]
+- !private ["Ps9Equatable", "ScreenHeight"]
+- !private ["Ps9Equatable", "ScreenWidth"]
+- !private ["Ps9Equatable", "TaskDetailView"]
+- !private ["Ps9Equatable", "addSubview"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- ["Ps9Equatable", "drawView"]
+- !private ["Ps9Equatable", "fatalError"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "paramsDict"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "titleLabel"]
+- !private ["Ps9Equatable", "view"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "CGRect"]
+- !private ["Ps8Hashable", "NavigationBarHeight"]
+- !private ["Ps8Hashable", "ScreenHeight"]
+- !private ["Ps8Hashable", "ScreenWidth"]
+- !private ["Ps8Hashable", "TaskDetailView"]
+- !private ["Ps8Hashable", "addSubview"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- ["Ps8Hashable", "drawView"]
+- !private ["Ps8Hashable", "fatalError"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "paramsDict"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "titleLabel"]
+- !private ["Ps8Hashable", "view"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "CGRect"]
+- !private ["PSo8NSCoding", "NavigationBarHeight"]
+- !private ["PSo8NSCoding", "ScreenHeight"]
+- !private ["PSo8NSCoding", "ScreenWidth"]
+- !private ["PSo8NSCoding", "TaskDetailView"]
+- !private ["PSo8NSCoding", "addSubview"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "drawView"]
+- !private ["PSo8NSCoding", "fatalError"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "paramsDict"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "titleLabel"]
+- !private ["PSo8NSCoding", "view"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "CGRect"]
+- !private ["PSo26NSExtensionRequestHandling", "NavigationBarHeight"]
+- !private ["PSo26NSExtensionRequestHandling", "ScreenHeight"]
+- !private ["PSo26NSExtensionRequestHandling", "ScreenWidth"]
+- !private ["PSo26NSExtensionRequestHandling", "TaskDetailView"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "drawView"]
+- !private ["PSo26NSExtensionRequestHandling", "fatalError"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "paramsDict"]
+- !private ["PSo26NSExtensionRequestHandling", "titleLabel"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "CGRect"]
+- ["CSo8NSObject", "Dictionary"]
+- ["CSo8NSObject", "NSCoder"]
+- !private ["CSo8NSObject", "NavigationBarHeight"]
+- !private ["CSo8NSObject", "ScreenHeight"]
+- !private ["CSo8NSObject", "ScreenWidth"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "TaskDetailView"]
+- !private ["CSo8NSObject", "addSubview"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "drawView"]
+- !private ["CSo8NSObject", "fatalError"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "paramsDict"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "titleLabel"]
+- !private ["CSo8NSObject", "view"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "CGRect"]
+- !private ["PSo16NSObjectProtocol", "NavigationBarHeight"]
+- !private ["PSo16NSObjectProtocol", "ScreenHeight"]
+- !private ["PSo16NSObjectProtocol", "ScreenWidth"]
+- !private ["PSo16NSObjectProtocol", "TaskDetailView"]
+- !private ["PSo16NSObjectProtocol", "addSubview"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "drawView"]
+- !private ["PSo16NSObjectProtocol", "fatalError"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "paramsDict"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "titleLabel"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Os5Never", "deinit"]
+- ["Sq", "deinit"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Streamable", "init"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- ["C10swift3Test14TaskDetailView", "deinit"]
+- !private ["C10swift3Test14TaskDetailView", "init"]
+- ["C10swift3Test24TaskDetailViewController", "AnyObject"]
+- !private ["C10swift3Test24TaskDetailViewController", "CGRect"]
+- ["C10swift3Test24TaskDetailViewController", "Dictionary"]
+- ["C10swift3Test24TaskDetailViewController", "NSCoder"]
+- !private ["C10swift3Test24TaskDetailViewController", "NavigationBarHeight"]
+- !private ["C10swift3Test24TaskDetailViewController", "ScreenHeight"]
+- !private ["C10swift3Test24TaskDetailViewController", "ScreenWidth"]
+- ["C10swift3Test24TaskDetailViewController", "String"]
+- !private ["C10swift3Test24TaskDetailViewController", "TaskDetailView"]
+- ["C10swift3Test24TaskDetailViewController", "deinit"]
+- ["C10swift3Test24TaskDetailViewController", "didReceiveMemoryWarning"]
+- ["C10swift3Test24TaskDetailViewController", "drawView"]
+- !private ["C10swift3Test24TaskDetailViewController", "fatalError"]
+- ["C10swift3Test24TaskDetailViewController", "init"]
+- ["C10swift3Test24TaskDetailViewController", "paramsDict"]
+- !private ["C10swift3Test24TaskDetailViewController", "titleLabel"]
+- !private ["C10swift3Test24TaskDetailViewController", "view"]
+- ["C10swift3Test24TaskDetailViewController", "viewDidLoad"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "addSubview"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "addSubview"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "CGRect"]
+- !private ["PSo21UIAppearanceContainer", "NavigationBarHeight"]
+- !private ["PSo21UIAppearanceContainer", "ScreenHeight"]
+- !private ["PSo21UIAppearanceContainer", "ScreenWidth"]
+- !private ["PSo21UIAppearanceContainer", "TaskDetailView"]
+- !private ["PSo21UIAppearanceContainer", "addSubview"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "drawView"]
+- !private ["PSo21UIAppearanceContainer", "fatalError"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "paramsDict"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo21UIAppearanceContainer", "titleLabel"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "CGRect"]
+- !private ["PSo18UIContentContainer", "NavigationBarHeight"]
+- !private ["PSo18UIContentContainer", "ScreenHeight"]
+- !private ["PSo18UIContentContainer", "ScreenWidth"]
+- !private ["PSo18UIContentContainer", "TaskDetailView"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "drawView"]
+- !private ["PSo18UIContentContainer", "fatalError"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "paramsDict"]
+- !private ["PSo18UIContentContainer", "titleLabel"]
+- !private ["PSo18UIContentContainer", "view"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["PSo17UICoordinateSpace", "addSubview"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "addSubview"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "CGRect"]
+- !private ["PSo18UIFocusEnvironment", "NavigationBarHeight"]
+- !private ["PSo18UIFocusEnvironment", "ScreenHeight"]
+- !private ["PSo18UIFocusEnvironment", "ScreenWidth"]
+- !private ["PSo18UIFocusEnvironment", "TaskDetailView"]
+- !private ["PSo18UIFocusEnvironment", "addSubview"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "drawView"]
+- !private ["PSo18UIFocusEnvironment", "fatalError"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "paramsDict"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- !private ["PSo18UIFocusEnvironment", "titleLabel"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "addSubview"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "text"]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "AnyObject"]
+- !private ["CSo11UIResponder", "CGRect"]
+- ["CSo11UIResponder", "Dictionary"]
+- ["CSo11UIResponder", "NSCoder"]
+- !private ["CSo11UIResponder", "NavigationBarHeight"]
+- !private ["CSo11UIResponder", "ScreenHeight"]
+- !private ["CSo11UIResponder", "ScreenWidth"]
+- ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "TaskDetailView"]
+- !private ["CSo11UIResponder", "addSubview"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "drawView"]
+- !private ["CSo11UIResponder", "fatalError"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "paramsDict"]
+- !private ["CSo11UIResponder", "text"]
+- !private ["CSo11UIResponder", "titleLabel"]
+- !private ["CSo11UIResponder", "view"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "CGRect"]
+- !private ["PSo30UIResponderStandardEditActions", "NavigationBarHeight"]
+- !private ["PSo30UIResponderStandardEditActions", "ScreenHeight"]
+- !private ["PSo30UIResponderStandardEditActions", "ScreenWidth"]
+- !private ["PSo30UIResponderStandardEditActions", "TaskDetailView"]
+- !private ["PSo30UIResponderStandardEditActions", "addSubview"]
+- ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- ["PSo30UIResponderStandardEditActions", "drawView"]
+- !private ["PSo30UIResponderStandardEditActions", "fatalError"]
+- ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "paramsDict"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- !private ["PSo30UIResponderStandardEditActions", "titleLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "view"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["CSo12UIScrollView", "init"]
+- !private ["PSo16UIStateRestoring", "CGRect"]
+- !private ["PSo16UIStateRestoring", "NavigationBarHeight"]
+- !private ["PSo16UIStateRestoring", "ScreenHeight"]
+- !private ["PSo16UIStateRestoring", "ScreenWidth"]
+- !private ["PSo16UIStateRestoring", "TaskDetailView"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "drawView"]
+- !private ["PSo16UIStateRestoring", "fatalError"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "paramsDict"]
+- !private ["PSo16UIStateRestoring", "titleLabel"]
+- !private ["PSo16UIStateRestoring", "view"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "CGRect"]
+- !private ["PSo18UITraitEnvironment", "NavigationBarHeight"]
+- !private ["PSo18UITraitEnvironment", "ScreenHeight"]
+- !private ["PSo18UITraitEnvironment", "ScreenWidth"]
+- !private ["PSo18UITraitEnvironment", "TaskDetailView"]
+- !private ["PSo18UITraitEnvironment", "addSubview"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "drawView"]
+- !private ["PSo18UITraitEnvironment", "fatalError"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "paramsDict"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- !private ["PSo18UITraitEnvironment", "titleLabel"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "addSubview"]
+- !private ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "AnyObject"]
+- !private ["CSo16UIViewController", "CGRect"]
+- ["CSo16UIViewController", "Dictionary"]
+- ["CSo16UIViewController", "NSCoder"]
+- !private ["CSo16UIViewController", "NavigationBarHeight"]
+- !private ["CSo16UIViewController", "ScreenHeight"]
+- !private ["CSo16UIViewController", "ScreenWidth"]
+- ["CSo16UIViewController", "String"]
+- !private ["CSo16UIViewController", "TaskDetailView"]
+- ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "drawView"]
+- !private ["CSo16UIViewController", "fatalError"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "paramsDict"]
+- !private ["CSo16UIViewController", "titleLabel"]
+- !private ["CSo16UIViewController", "view"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["Su", "deinit"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addSubview"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "CGRect"]
+- !private ["Ps9_Hashable", "NavigationBarHeight"]
+- !private ["Ps9_Hashable", "ScreenHeight"]
+- !private ["Ps9_Hashable", "ScreenWidth"]
+- !private ["Ps9_Hashable", "TaskDetailView"]
+- !private ["Ps9_Hashable", "addSubview"]
+- ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- ["Ps9_Hashable", "drawView"]
+- !private ["Ps9_Hashable", "fatalError"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "paramsDict"]
+- !private ["Ps9_Hashable", "text"]
+- !private ["Ps9_Hashable", "titleLabel"]
+- !private ["Ps9_Hashable", "view"]
+- ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C10swift3Test18BaseViewController"
+- !private "PSo15CALayerDelegate"
+- "VSC6CGRect"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Sd"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Os5Never"
+- "Sq"
+- "Vs12StaticString"
+- !private "Ps10Streamable"
+- "SS"
+- "C10swift3Test14TaskDetailView"
+- "C10swift3Test24TaskDetailViewController"
+- !private "Ps16TextOutputStream"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- !private "CSo12UIScrollView"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- "Su"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/swift3Test-Bridging-Header.h"
+- "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/base/Common.h"
+- "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/home/\u63D0\u8D27\u901A\u77E5/DeliveryNoticeViewController.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/public/OCBaseViewController/OCBaseViewController.h"
+- "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/public/customAlertViewEvent/customAlertViewEvent.h"
+- "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/public/JHChart/JHRingChart.h"
+- "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/public/JHChart/JHChart.h"
+- "/Users/a43696467/IOS\u6587\u672C/Swift/swift3Test/swift3Test/public/JHChart/JHLineChart.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "1325e9b0767122451e55c5dc18849332"
