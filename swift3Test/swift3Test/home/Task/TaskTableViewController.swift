@@ -10,7 +10,7 @@ import UIKit
 
 class TaskTableViewController: BaseViewController,UITableViewDelegate,UITableViewDataSource{
     
-    var tableView:UITableView=UITableView(frame: CGRect.init(x: 0, y: NavigationBarHeight, width: ScreenWidth(), height: ScreenHeight()-NavigationBarHeight));
+    var tableView:BaseTableView!;
     var itemsArray:[Any]=[Any]();
     
     var titleStr: String!="";
@@ -46,43 +46,37 @@ class TaskTableViewController: BaseViewController,UITableViewDelegate,UITableVie
         
         self.titleLabel.text=self.titleStr;
         
-        tableView.showsHorizontalScrollIndicator = false;
-        tableView.delegate = self;
-        tableView.dataSource = self;
-        tableView.backgroundColor = UIColor.clear;
-        tableView.separatorStyle = UITableViewCellSeparatorStyle.none;
-        self.view.addSubview(tableView);
-        
+        self.tableView=BaseTableView.init(WithFrame: CGRect.init(x: 0, y: NavigationBarHeight, width: ScreenWidth(), height: ScreenHeight()-NavigationBarHeight), andHeaderCallbackFunc: {
+             self.getNetworkData();
+            }, andFooterCallbackFunc: {
+             self.getNetworkData();
+        })
+        self.tableView.showsHorizontalScrollIndicator = false;
+        self.tableView.delegate = self;
+        self.tableView.dataSource = self;
+        self.tableView.backgroundColor = UIColor.clear;
+        self.tableView.separatorStyle = UITableViewCellSeparatorStyle.none;
+        self.view.addSubview(self.tableView);
         
     }
+
     
     //MARK:- 获取网络数据
     func getNetworkData()  {
         
         let dict:[String:Any]=[
             
-            "companyName" : "汇通天下物流公司",
-            "createDate" : "09-27 09:47",
-            "goodsDesc" : "货柜",
-            "isTmail" : "2",
-            "orderId" : "145",
-            "orderStateName" : "已发车",
-            "orderTime" : "09-27 09:47",
-            "receiverAddress" : "科学大道162号",
-            "receiverName" : "张三",
             "receiverTel" : "13800138010",
-            "remarks" : "",
-            "sellerOrderId" : "",
-            "totalFee" : "521.00",
-            "trackingNum" : "1410000365",
-            "zxPhone" : "13800138004",
-            
+
             ];
     
         
         BaseRequest.request(WithInCode: "10086", andParamsDict: dict) { (contentDict:[String:Any], message:String) -> Void in
             
             if let array=contentDict["items"] as? Array<Any> {
+                
+                self.tableView.mj_header.endRefreshing();
+                self.tableView.mj_footer.endRefreshing();
                 
                 self.itemsArray=array;
                 self.tableView .reloadData();

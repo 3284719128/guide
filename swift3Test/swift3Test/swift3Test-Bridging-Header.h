@@ -12,3 +12,6 @@
 
 #import "JHRingChart.h"
 #import "JHLineChart.h"
+
+
+#import "MJRefresh.h"

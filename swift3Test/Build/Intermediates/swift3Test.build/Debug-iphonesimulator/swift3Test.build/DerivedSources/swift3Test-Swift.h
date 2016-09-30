@@ -190,6 +190,19 @@ SWIFT_CLASS("_TtC10swift3Test11BaseRequest")
 @end
 
 
+SWIFT_CLASS("_TtC10swift3Test13BaseTableView")
+@interface BaseTableView : UITableView
+@property (nonatomic, copy) void (^ _Null_unspecified headerCallbackFunc)(void);
+@property (nonatomic, copy) void (^ _Null_unspecified footerCallbackFunc)(void);
+- (nonnull instancetype)initWithFrame:(CGRect)frame andHeaderCallbackFunc:(void (^ _Null_unspecified)(void))headerCallbackFunc andFooterCallbackFunc:(void (^ _Null_unspecified)(void))footerCallbackFunc OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)addMJRefresh;
+- (void)headerRefreshing;
+- (void)footerRefreshing;
+- (nonnull instancetype)initWithFrame:(CGRect)frame style:(UITableViewStyle)style SWIFT_UNAVAILABLE;
+@end
+
+
 
 SWIFT_CLASS("_TtC10swift3Test23CheckInfoViewController")
 @interface CheckInfoViewController : BaseViewController
@@ -267,7 +280,6 @@ SWIFT_CLASS("_TtC10swift3Test28PersonalCenterViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITableView;
 
 SWIFT_CLASS("_TtC10swift3Test17TadkTableViewCell")
 @interface TadkTableViewCell : UITableViewCell
@@ -336,7 +348,7 @@ SWIFT_CLASS("_TtC10swift3Test24TaskDetailViewController")
 
 SWIFT_CLASS("_TtC10swift3Test23TaskTableViewController")
 @interface TaskTableViewController : BaseViewController <UIScrollViewDelegate, UITableViewDataSource, UITableViewDelegate>
-@property (nonatomic, strong) UITableView * _Nonnull tableView;
+@property (nonatomic, strong) BaseTableView * _Null_unspecified tableView;
 @property (nonatomic, copy) NSArray * _Nonnull itemsArray;
 @property (nonatomic, copy) NSString * _Null_unspecified titleStr;
 - (nonnull instancetype)initWithTitleStr:(NSString * _Nonnull)str OBJC_DESIGNATED_INITIALIZER;
@@ -369,7 +381,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 SWIFT_CLASS("_TtC10swift3Test28selectBusinessViewController")
 @interface selectBusinessViewController : BaseViewController <UIScrollViewDelegate, UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong) UILabel * _Null_unspecified businessLabel;
-@property (nonatomic, strong) UITableView * _Null_unspecified tableView;
+@property (nonatomic, strong) BaseTableView * _Null_unspecified tableView;
 @property (nonatomic, copy) NSArray * _Nonnull itemsArray;
 @property (nonatomic, copy) NSString * _Nonnull titleStr;
 @property (nonatomic, copy) void (^ _Nullable callbackFunc)(NSString * _Nonnull);

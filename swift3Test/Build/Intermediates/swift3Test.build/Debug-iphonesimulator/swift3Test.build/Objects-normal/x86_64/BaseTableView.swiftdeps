@@ -1,0 +1,556 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BaseTableView"
+provides-nominal:
+- "C10swift3Test13BaseTableView"
+provides-member:
+- ["C10swift3Test13BaseTableView", ""]
+provides-dynamic-lookup:
+- "footerRefreshing"
+- "headerCallbackFunc"
+- "addMJRefresh"
+- "footerCallbackFunc"
+- "headerRefreshing"
+depends-top-level:
+- !private "MJRefreshNormalHeader"
+- "AssignmentPrecedence"
+- !private "UITableViewStyle"
+- !private "MJRefreshAutoNormalFooter"
+- !private "StringLiteralType"
+- "NSCoder"
+- "UITableView"
+- "Void"
+- "CGRect"
+- "BaseTableView"
+- !private "fatalError"
+depends-member:
+- !private ["Ps9AnyObject", "MJRefreshAutoNormalFooter"]
+- !private ["Ps9AnyObject", "MJRefreshNormalHeader"]
+- !private ["Ps9AnyObject", "UITableViewStyle"]
+- ["Ps9AnyObject", "addMJRefresh"]
+- !private ["Ps9AnyObject", "fatalError"]
+- ["Ps9AnyObject", "footerCallbackFunc"]
+- ["Ps9AnyObject", "footerRefreshing"]
+- ["Ps9AnyObject", "headerCallbackFunc"]
+- ["Ps9AnyObject", "headerRefreshing"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "mj_footer"]
+- !private ["Ps9AnyObject", "mj_header"]
+- !private ["Ps9AnyObject", "setRefreshingTarget"]
+- ["Ps9AnyObject", ""]
+- ["C10swift3Test13BaseTableView", "CGRect"]
+- !private ["C10swift3Test13BaseTableView", "MJRefreshAutoNormalFooter"]
+- !private ["C10swift3Test13BaseTableView", "MJRefreshNormalHeader"]
+- ["C10swift3Test13BaseTableView", "NSCoder"]
+- !private ["C10swift3Test13BaseTableView", "UITableViewStyle"]
+- ["C10swift3Test13BaseTableView", "Void"]
+- ["C10swift3Test13BaseTableView", "addMJRefresh"]
+- ["C10swift3Test13BaseTableView", "deinit"]
+- !private ["C10swift3Test13BaseTableView", "fatalError"]
+- ["C10swift3Test13BaseTableView", "footerCallbackFunc"]
+- ["C10swift3Test13BaseTableView", "footerRefreshing"]
+- ["C10swift3Test13BaseTableView", "headerCallbackFunc"]
+- ["C10swift3Test13BaseTableView", "headerRefreshing"]
+- ["C10swift3Test13BaseTableView", "init"]
+- !private ["C10swift3Test13BaseTableView", "mj_footer"]
+- !private ["C10swift3Test13BaseTableView", "mj_header"]
+- !private ["PSo15CALayerDelegate", "MJRefreshAutoNormalFooter"]
+- !private ["PSo15CALayerDelegate", "MJRefreshNormalHeader"]
+- !private ["PSo15CALayerDelegate", "UITableViewStyle"]
+- ["PSo15CALayerDelegate", "addMJRefresh"]
+- !private ["PSo15CALayerDelegate", "fatalError"]
+- ["PSo15CALayerDelegate", "footerCallbackFunc"]
+- ["PSo15CALayerDelegate", "footerRefreshing"]
+- ["PSo15CALayerDelegate", "headerCallbackFunc"]
+- ["PSo15CALayerDelegate", "headerRefreshing"]
+- ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "mj_footer"]
+- !private ["PSo15CALayerDelegate", "mj_header"]
+- !private ["PSo15CALayerDelegate", "setRefreshingTarget"]
+- ["PSo15CALayerDelegate", ""]
+- ["VSC6CGRect", "deinit"]
+- !private ["Ps7CVarArg", "MJRefreshAutoNormalFooter"]
+- !private ["Ps7CVarArg", "MJRefreshNormalHeader"]
+- !private ["Ps7CVarArg", "UITableViewStyle"]
+- ["Ps7CVarArg", "addMJRefresh"]
+- !private ["Ps7CVarArg", "fatalError"]
+- ["Ps7CVarArg", "footerCallbackFunc"]
+- ["Ps7CVarArg", "footerRefreshing"]
+- ["Ps7CVarArg", "headerCallbackFunc"]
+- ["Ps7CVarArg", "headerRefreshing"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "mj_footer"]
+- !private ["Ps7CVarArg", "mj_header"]
+- !private ["Ps7CVarArg", "setRefreshingTarget"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "MJRefreshAutoNormalFooter"]
+- !private ["Ps28CustomDebugStringConvertible", "MJRefreshNormalHeader"]
+- !private ["Ps28CustomDebugStringConvertible", "UITableViewStyle"]
+- ["Ps28CustomDebugStringConvertible", "addMJRefresh"]
+- !private ["Ps28CustomDebugStringConvertible", "fatalError"]
+- ["Ps28CustomDebugStringConvertible", "footerCallbackFunc"]
+- ["Ps28CustomDebugStringConvertible", "footerRefreshing"]
+- ["Ps28CustomDebugStringConvertible", "headerCallbackFunc"]
+- ["Ps28CustomDebugStringConvertible", "headerRefreshing"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "mj_footer"]
+- !private ["Ps28CustomDebugStringConvertible", "mj_header"]
+- !private ["Ps28CustomDebugStringConvertible", "setRefreshingTarget"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "MJRefreshAutoNormalFooter"]
+- !private ["Ps23CustomStringConvertible", "MJRefreshNormalHeader"]
+- !private ["Ps23CustomStringConvertible", "UITableViewStyle"]
+- ["Ps23CustomStringConvertible", "addMJRefresh"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- ["Ps23CustomStringConvertible", "footerCallbackFunc"]
+- ["Ps23CustomStringConvertible", "footerRefreshing"]
+- ["Ps23CustomStringConvertible", "headerCallbackFunc"]
+- ["Ps23CustomStringConvertible", "headerRefreshing"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "mj_footer"]
+- !private ["Ps23CustomStringConvertible", "mj_header"]
+- !private ["Ps23CustomStringConvertible", "setRefreshingTarget"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "MJRefreshAutoNormalFooter"]
+- !private ["Ps9Equatable", "MJRefreshNormalHeader"]
+- !private ["Ps9Equatable", "UITableViewStyle"]
+- ["Ps9Equatable", "addMJRefresh"]
+- !private ["Ps9Equatable", "fatalError"]
+- ["Ps9Equatable", "footerCallbackFunc"]
+- ["Ps9Equatable", "footerRefreshing"]
+- ["Ps9Equatable", "headerCallbackFunc"]
+- ["Ps9Equatable", "headerRefreshing"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "mj_footer"]
+- !private ["Ps9Equatable", "mj_header"]
+- !private ["Ps9Equatable", "plain"]
+- !private ["Ps9Equatable", "setRefreshingTarget"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "MJRefreshAutoNormalFooter"]
+- !private ["Ps8Hashable", "MJRefreshNormalHeader"]
+- !private ["Ps8Hashable", "UITableViewStyle"]
+- ["Ps8Hashable", "addMJRefresh"]
+- !private ["Ps8Hashable", "fatalError"]
+- ["Ps8Hashable", "footerCallbackFunc"]
+- ["Ps8Hashable", "footerRefreshing"]
+- ["Ps8Hashable", "headerCallbackFunc"]
+- ["Ps8Hashable", "headerRefreshing"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "mj_footer"]
+- !private ["Ps8Hashable", "mj_header"]
+- !private ["Ps8Hashable", "plain"]
+- !private ["Ps8Hashable", "setRefreshingTarget"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["CSo19MJRefreshAutoFooter", "init"]
+- ["CSo25MJRefreshAutoNormalFooter", "deinit"]
+- !private ["CSo25MJRefreshAutoNormalFooter", "init"]
+- !private ["CSo24MJRefreshAutoStateFooter", "init"]
+- !private ["CSo18MJRefreshComponent", "init"]
+- !private ["CSo18MJRefreshComponent", "setRefreshingTarget"]
+- !private ["CSo15MJRefreshFooter", "init"]
+- !private ["CSo15MJRefreshFooter", "setRefreshingTarget"]
+- !private ["CSo15MJRefreshHeader", "init"]
+- !private ["CSo15MJRefreshHeader", "setRefreshingTarget"]
+- ["CSo21MJRefreshNormalHeader", "deinit"]
+- !private ["CSo21MJRefreshNormalHeader", "init"]
+- !private ["CSo20MJRefreshStateHeader", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "MJRefreshAutoNormalFooter"]
+- !private ["PSo8NSCoding", "MJRefreshNormalHeader"]
+- !private ["PSo8NSCoding", "UITableViewStyle"]
+- ["PSo8NSCoding", "addMJRefresh"]
+- !private ["PSo8NSCoding", "fatalError"]
+- ["PSo8NSCoding", "footerCallbackFunc"]
+- ["PSo8NSCoding", "footerRefreshing"]
+- ["PSo8NSCoding", "headerCallbackFunc"]
+- ["PSo8NSCoding", "headerRefreshing"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "mj_footer"]
+- !private ["PSo8NSCoding", "mj_header"]
+- !private ["PSo8NSCoding", "setRefreshingTarget"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "CGRect"]
+- !private ["CSo8NSObject", "MJRefreshAutoNormalFooter"]
+- !private ["CSo8NSObject", "MJRefreshNormalHeader"]
+- ["CSo8NSObject", "NSCoder"]
+- !private ["CSo8NSObject", "UITableViewStyle"]
+- ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "addMJRefresh"]
+- !private ["CSo8NSObject", "fatalError"]
+- ["CSo8NSObject", "footerCallbackFunc"]
+- ["CSo8NSObject", "footerRefreshing"]
+- ["CSo8NSObject", "headerCallbackFunc"]
+- ["CSo8NSObject", "headerRefreshing"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "mj_footer"]
+- !private ["CSo8NSObject", "mj_header"]
+- !private ["CSo8NSObject", "setRefreshingTarget"]
+- !private ["PSo16NSObjectProtocol", "MJRefreshAutoNormalFooter"]
+- !private ["PSo16NSObjectProtocol", "MJRefreshNormalHeader"]
+- !private ["PSo16NSObjectProtocol", "UITableViewStyle"]
+- ["PSo16NSObjectProtocol", "addMJRefresh"]
+- !private ["PSo16NSObjectProtocol", "fatalError"]
+- ["PSo16NSObjectProtocol", "footerCallbackFunc"]
+- ["PSo16NSObjectProtocol", "footerRefreshing"]
+- ["PSo16NSObjectProtocol", "headerCallbackFunc"]
+- ["PSo16NSObjectProtocol", "headerRefreshing"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "mj_footer"]
+- !private ["PSo16NSObjectProtocol", "mj_header"]
+- !private ["PSo16NSObjectProtocol", "setRefreshingTarget"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Os5Never", "deinit"]
+- !private ["Ps16RawRepresentable", "plain"]
+- ["V10ObjectiveC8Selector", "deinit"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Streamable", "init"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "MJRefreshAutoNormalFooter"]
+- !private ["PSo29UIAccessibilityIdentification", "MJRefreshNormalHeader"]
+- !private ["PSo29UIAccessibilityIdentification", "UITableViewStyle"]
+- ["PSo29UIAccessibilityIdentification", "addMJRefresh"]
+- !private ["PSo29UIAccessibilityIdentification", "fatalError"]
+- ["PSo29UIAccessibilityIdentification", "footerCallbackFunc"]
+- ["PSo29UIAccessibilityIdentification", "footerRefreshing"]
+- ["PSo29UIAccessibilityIdentification", "headerCallbackFunc"]
+- ["PSo29UIAccessibilityIdentification", "headerRefreshing"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "mj_footer"]
+- !private ["PSo29UIAccessibilityIdentification", "mj_header"]
+- !private ["PSo29UIAccessibilityIdentification", "setRefreshingTarget"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "MJRefreshAutoNormalFooter"]
+- !private ["PSo12UIAppearance", "MJRefreshNormalHeader"]
+- !private ["PSo12UIAppearance", "UITableViewStyle"]
+- ["PSo12UIAppearance", "addMJRefresh"]
+- !private ["PSo12UIAppearance", "fatalError"]
+- ["PSo12UIAppearance", "footerCallbackFunc"]
+- ["PSo12UIAppearance", "footerRefreshing"]
+- ["PSo12UIAppearance", "headerCallbackFunc"]
+- ["PSo12UIAppearance", "headerRefreshing"]
+- ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "mj_footer"]
+- !private ["PSo12UIAppearance", "mj_header"]
+- !private ["PSo12UIAppearance", "setRefreshingTarget"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "MJRefreshAutoNormalFooter"]
+- !private ["PSo21UIAppearanceContainer", "MJRefreshNormalHeader"]
+- !private ["PSo21UIAppearanceContainer", "UITableViewStyle"]
+- ["PSo21UIAppearanceContainer", "addMJRefresh"]
+- !private ["PSo21UIAppearanceContainer", "fatalError"]
+- ["PSo21UIAppearanceContainer", "footerCallbackFunc"]
+- ["PSo21UIAppearanceContainer", "footerRefreshing"]
+- ["PSo21UIAppearanceContainer", "headerCallbackFunc"]
+- ["PSo21UIAppearanceContainer", "headerRefreshing"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "mj_footer"]
+- !private ["PSo21UIAppearanceContainer", "mj_header"]
+- !private ["PSo21UIAppearanceContainer", "setRefreshingTarget"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo17UICoordinateSpace", "MJRefreshAutoNormalFooter"]
+- !private ["PSo17UICoordinateSpace", "MJRefreshNormalHeader"]
+- !private ["PSo17UICoordinateSpace", "UITableViewStyle"]
+- ["PSo17UICoordinateSpace", "addMJRefresh"]
+- !private ["PSo17UICoordinateSpace", "fatalError"]
+- ["PSo17UICoordinateSpace", "footerCallbackFunc"]
+- ["PSo17UICoordinateSpace", "footerRefreshing"]
+- ["PSo17UICoordinateSpace", "headerCallbackFunc"]
+- ["PSo17UICoordinateSpace", "headerRefreshing"]
+- ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "mj_footer"]
+- !private ["PSo17UICoordinateSpace", "mj_header"]
+- !private ["PSo17UICoordinateSpace", "setRefreshingTarget"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "MJRefreshAutoNormalFooter"]
+- !private ["PSo13UIDynamicItem", "MJRefreshNormalHeader"]
+- !private ["PSo13UIDynamicItem", "UITableViewStyle"]
+- ["PSo13UIDynamicItem", "addMJRefresh"]
+- !private ["PSo13UIDynamicItem", "fatalError"]
+- ["PSo13UIDynamicItem", "footerCallbackFunc"]
+- ["PSo13UIDynamicItem", "footerRefreshing"]
+- ["PSo13UIDynamicItem", "headerCallbackFunc"]
+- ["PSo13UIDynamicItem", "headerRefreshing"]
+- ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "mj_footer"]
+- !private ["PSo13UIDynamicItem", "mj_header"]
+- !private ["PSo13UIDynamicItem", "setRefreshingTarget"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "MJRefreshAutoNormalFooter"]
+- !private ["PSo18UIFocusEnvironment", "MJRefreshNormalHeader"]
+- !private ["PSo18UIFocusEnvironment", "UITableViewStyle"]
+- ["PSo18UIFocusEnvironment", "addMJRefresh"]
+- !private ["PSo18UIFocusEnvironment", "fatalError"]
+- ["PSo18UIFocusEnvironment", "footerCallbackFunc"]
+- ["PSo18UIFocusEnvironment", "footerRefreshing"]
+- ["PSo18UIFocusEnvironment", "headerCallbackFunc"]
+- ["PSo18UIFocusEnvironment", "headerRefreshing"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "mj_footer"]
+- !private ["PSo18UIFocusEnvironment", "mj_header"]
+- !private ["PSo18UIFocusEnvironment", "setRefreshingTarget"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "MJRefreshAutoNormalFooter"]
+- !private ["PSo11UIFocusItem", "MJRefreshNormalHeader"]
+- !private ["PSo11UIFocusItem", "UITableViewStyle"]
+- ["PSo11UIFocusItem", "addMJRefresh"]
+- !private ["PSo11UIFocusItem", "fatalError"]
+- ["PSo11UIFocusItem", "footerCallbackFunc"]
+- ["PSo11UIFocusItem", "footerRefreshing"]
+- ["PSo11UIFocusItem", "headerCallbackFunc"]
+- ["PSo11UIFocusItem", "headerRefreshing"]
+- ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "mj_footer"]
+- !private ["PSo11UIFocusItem", "mj_header"]
+- !private ["PSo11UIFocusItem", "setRefreshingTarget"]
+- ["PSo11UIFocusItem", ""]
+- ["CSo11UIResponder", "CGRect"]
+- !private ["CSo11UIResponder", "MJRefreshAutoNormalFooter"]
+- !private ["CSo11UIResponder", "MJRefreshNormalHeader"]
+- ["CSo11UIResponder", "NSCoder"]
+- !private ["CSo11UIResponder", "UITableViewStyle"]
+- ["CSo11UIResponder", "Void"]
+- ["CSo11UIResponder", "addMJRefresh"]
+- !private ["CSo11UIResponder", "fatalError"]
+- ["CSo11UIResponder", "footerCallbackFunc"]
+- ["CSo11UIResponder", "footerRefreshing"]
+- ["CSo11UIResponder", "headerCallbackFunc"]
+- ["CSo11UIResponder", "headerRefreshing"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "mj_footer"]
+- !private ["CSo11UIResponder", "mj_header"]
+- !private ["CSo11UIResponder", "setRefreshingTarget"]
+- !private ["PSo30UIResponderStandardEditActions", "MJRefreshAutoNormalFooter"]
+- !private ["PSo30UIResponderStandardEditActions", "MJRefreshNormalHeader"]
+- !private ["PSo30UIResponderStandardEditActions", "UITableViewStyle"]
+- ["PSo30UIResponderStandardEditActions", "addMJRefresh"]
+- !private ["PSo30UIResponderStandardEditActions", "fatalError"]
+- ["PSo30UIResponderStandardEditActions", "footerCallbackFunc"]
+- ["PSo30UIResponderStandardEditActions", "footerRefreshing"]
+- ["PSo30UIResponderStandardEditActions", "headerCallbackFunc"]
+- ["PSo30UIResponderStandardEditActions", "headerRefreshing"]
+- ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "mj_footer"]
+- !private ["PSo30UIResponderStandardEditActions", "mj_header"]
+- !private ["PSo30UIResponderStandardEditActions", "setRefreshingTarget"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- ["CSo12UIScrollView", "CGRect"]
+- !private ["CSo12UIScrollView", "MJRefreshAutoNormalFooter"]
+- !private ["CSo12UIScrollView", "MJRefreshNormalHeader"]
+- ["CSo12UIScrollView", "NSCoder"]
+- !private ["CSo12UIScrollView", "UITableViewStyle"]
+- ["CSo12UIScrollView", "Void"]
+- ["CSo12UIScrollView", "addMJRefresh"]
+- !private ["CSo12UIScrollView", "fatalError"]
+- ["CSo12UIScrollView", "footerCallbackFunc"]
+- ["CSo12UIScrollView", "footerRefreshing"]
+- ["CSo12UIScrollView", "headerCallbackFunc"]
+- ["CSo12UIScrollView", "headerRefreshing"]
+- ["CSo12UIScrollView", "init"]
+- !private ["CSo12UIScrollView", "mj_footer"]
+- !private ["CSo12UIScrollView", "mj_header"]
+- ["CSo11UITableView", "CGRect"]
+- !private ["CSo11UITableView", "MJRefreshAutoNormalFooter"]
+- !private ["CSo11UITableView", "MJRefreshNormalHeader"]
+- ["CSo11UITableView", "NSCoder"]
+- !private ["CSo11UITableView", "UITableViewStyle"]
+- ["CSo11UITableView", "Void"]
+- ["CSo11UITableView", "addMJRefresh"]
+- ["CSo11UITableView", "deinit"]
+- !private ["CSo11UITableView", "fatalError"]
+- ["CSo11UITableView", "footerCallbackFunc"]
+- ["CSo11UITableView", "footerRefreshing"]
+- ["CSo11UITableView", "headerCallbackFunc"]
+- ["CSo11UITableView", "headerRefreshing"]
+- ["CSo11UITableView", "init"]
+- !private ["CSo11UITableView", "mj_footer"]
+- !private ["CSo11UITableView", "mj_header"]
+- ["CSo11UITableView", ""]
+- ["OSC16UITableViewStyle", "deinit"]
+- !private ["OSC16UITableViewStyle", "plain"]
+- !private ["PSo18UITraitEnvironment", "MJRefreshAutoNormalFooter"]
+- !private ["PSo18UITraitEnvironment", "MJRefreshNormalHeader"]
+- !private ["PSo18UITraitEnvironment", "UITableViewStyle"]
+- ["PSo18UITraitEnvironment", "addMJRefresh"]
+- !private ["PSo18UITraitEnvironment", "fatalError"]
+- ["PSo18UITraitEnvironment", "footerCallbackFunc"]
+- ["PSo18UITraitEnvironment", "footerRefreshing"]
+- ["PSo18UITraitEnvironment", "headerCallbackFunc"]
+- ["PSo18UITraitEnvironment", "headerRefreshing"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "mj_footer"]
+- !private ["PSo18UITraitEnvironment", "mj_header"]
+- !private ["PSo18UITraitEnvironment", "setRefreshingTarget"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "CGRect"]
+- !private ["CSo6UIView", "MJRefreshAutoNormalFooter"]
+- !private ["CSo6UIView", "MJRefreshNormalHeader"]
+- ["CSo6UIView", "NSCoder"]
+- !private ["CSo6UIView", "UITableViewStyle"]
+- ["CSo6UIView", "Void"]
+- ["CSo6UIView", "addMJRefresh"]
+- !private ["CSo6UIView", "fatalError"]
+- ["CSo6UIView", "footerCallbackFunc"]
+- ["CSo6UIView", "footerRefreshing"]
+- ["CSo6UIView", "headerCallbackFunc"]
+- ["CSo6UIView", "headerRefreshing"]
+- ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "mj_footer"]
+- !private ["CSo6UIView", "mj_header"]
+- !private ["CSo6UIView", "setRefreshingTarget"]
+- ["Su", "deinit"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "MJRefreshAutoNormalFooter"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "MJRefreshNormalHeader"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UITableViewStyle"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "addMJRefresh"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "fatalError"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "footerCallbackFunc"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "footerRefreshing"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "headerCallbackFunc"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "headerRefreshing"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "mj_footer"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "mj_header"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setRefreshingTarget"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "MJRefreshAutoNormalFooter"]
+- !private ["Ps9_Hashable", "MJRefreshNormalHeader"]
+- !private ["Ps9_Hashable", "UITableViewStyle"]
+- ["Ps9_Hashable", "addMJRefresh"]
+- !private ["Ps9_Hashable", "fatalError"]
+- ["Ps9_Hashable", "footerCallbackFunc"]
+- ["Ps9_Hashable", "footerRefreshing"]
+- ["Ps9_Hashable", "headerCallbackFunc"]
+- ["Ps9_Hashable", "headerRefreshing"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "mj_footer"]
+- !private ["Ps9_Hashable", "mj_header"]
+- !private ["Ps9_Hashable", "plain"]
+- !private ["Ps9_Hashable", "setRefreshingTarget"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C10swift3Test13BaseTableView"
+- "PSo15CALayerDelegate"
+- "VSC6CGRect"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "SQ"
+- !private "Ps25LosslessStringConvertible"
+- !private "CSo19MJRefreshAutoFooter"
+- "CSo25MJRefreshAutoNormalFooter"
+- !private "CSo24MJRefreshAutoStateFooter"
+- !private "CSo18MJRefreshComponent"
+- !private "CSo15MJRefreshFooter"
+- !private "CSo15MJRefreshHeader"
+- "CSo21MJRefreshNormalHeader"
+- !private "CSo20MJRefreshStateHeader"
+- !private "Ps10MirrorPath"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Os5Never"
+- !private "Ps16RawRepresentable"
+- "V10ObjectiveC8Selector"
+- "Vs12StaticString"
+- !private "Ps10Streamable"
+- "SS"
+- !private "Ps16TextOutputStream"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "CSo12UIScrollView"
+- "CSo11UITableView"
+- "OSC16UITableViewStyle"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Su"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/a43696467/Documents/guide/swift3Test/swift3Test/swift3Test-Bridging-Header.h"
+- "/Users/a43696467/Documents/guide/swift3Test/swift3Test/base/Common.h"
+- "/Users/a43696467/Documents/guide/swift3Test/swift3Test/home/\u63D0\u8D27\u901A\u77E5/DeliveryNoticeViewController.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/a43696467/Documents/guide/swift3Test/swift3Test/public/OCBaseViewController/OCBaseViewController.h"
+- "/Users/a43696467/Documents/guide/swift3Test/swift3Test/public/customAlertViewEvent/customAlertViewEvent.h"
+- "/Users/a43696467/Documents/guide/swift3Test/swift3Test/public/JHChart/JHRingChart.h"
+- "/Users/a43696467/Documents/guide/swift3Test/swift3Test/public/JHChart/JHChart.h"
+- "/Users/a43696467/Documents/guide/swift3Test/swift3Test/public/JHChart/JHLineChart.h"
+- "/Users/a43696467/Documents/guide/swift3Test/Pods/Headers/Public/MJRefresh/MJRefresh.h"
+- "/Users/a43696467/Documents/guide/swift3Test/Pods/Headers/Public/MJRefresh/UIScrollView+MJRefresh.h"
+- "/Users/a43696467/Documents/guide/swift3Test/Pods/Headers/Public/MJRefresh/MJRefreshConst.h"
+- "/Users/a43696467/Documents/guide/swift3Test/Pods/Headers/Public/MJRefresh/UIScrollView+MJExtension.h"
+- "/Users/a43696467/Documents/guide/swift3Test/Pods/Headers/Public/MJRefresh/UIView+MJExtension.h"
+- "/Users/a43696467/Documents/guide/swift3Test/Pods/Headers/Public/MJRefresh/MJRefreshNormalHeader.h"
+- "/Users/a43696467/Documents/guide/swift3Test/Pods/Headers/Public/MJRefresh/MJRefreshStateHeader.h"
+- "/Users/a43696467/Documents/guide/swift3Test/Pods/Headers/Public/MJRefresh/MJRefreshHeader.h"
+- "/Users/a43696467/Documents/guide/swift3Test/Pods/Headers/Public/MJRefresh/MJRefreshComponent.h"
+- "/Users/a43696467/Documents/guide/swift3Test/Pods/Headers/Public/MJRefresh/NSBundle+MJRefresh.h"
+- "/Users/a43696467/Documents/guide/swift3Test/Pods/Headers/Public/MJRefresh/MJRefreshGifHeader.h"
+- "/Users/a43696467/Documents/guide/swift3Test/Pods/Headers/Public/MJRefresh/MJRefreshBackNormalFooter.h"
+- "/Users/a43696467/Documents/guide/swift3Test/Pods/Headers/Public/MJRefresh/MJRefreshBackStateFooter.h"
+- "/Users/a43696467/Documents/guide/swift3Test/Pods/Headers/Public/MJRefresh/MJRefreshBackFooter.h"
+- "/Users/a43696467/Documents/guide/swift3Test/Pods/Headers/Public/MJRefresh/MJRefreshFooter.h"
+- "/Users/a43696467/Documents/guide/swift3Test/Pods/Headers/Public/MJRefresh/MJRefreshBackGifFooter.h"
+- "/Users/a43696467/Documents/guide/swift3Test/Pods/Headers/Public/MJRefresh/MJRefreshAutoNormalFooter.h"
+- "/Users/a43696467/Documents/guide/swift3Test/Pods/Headers/Public/MJRefresh/MJRefreshAutoStateFooter.h"
+- "/Users/a43696467/Documents/guide/swift3Test/Pods/Headers/Public/MJRefresh/MJRefreshAutoFooter.h"
+- "/Users/a43696467/Documents/guide/swift3Test/Pods/Headers/Public/MJRefresh/MJRefreshAutoGifFooter.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "6aac2c3271e36faa4459aa4b138c79e9"

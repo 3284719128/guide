@@ -115,6 +115,7 @@ class AnalysisViewController: BaseViewController {
 
         /* 坐标点的虚线颜色 */
         self.lineChart.positionLineColorArr = [UIColor.clear];
+
         
         self.lineChart.showAnimation();
     

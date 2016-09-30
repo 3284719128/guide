@@ -12,7 +12,7 @@ class selectBusinessViewController: BaseViewController,UITableViewDataSource,UIT
     
     var businessLabel:UILabel!;
     
-    var tableView:UITableView!;
+    var tableView:BaseTableView!;
     var itemsArray=[Any]();
     
     var titleStr:String="";
@@ -58,13 +58,17 @@ class selectBusinessViewController: BaseViewController,UITableViewDataSource,UIT
     
     func createTableView() {
         
-        tableView=UITableView.init(frame: CGRect.init(x: 0, y: Double(self.businessLabel.frame.maxY)+40, width: ScreenWidth(), height: ScreenHeight()-(Double(self.businessLabel.frame.maxY)+40)));
-        tableView.showsHorizontalScrollIndicator = false;
-        tableView.delegate = self;
-        tableView.dataSource = self;
-        tableView.backgroundColor = UIColor.white;
-        tableView.separatorStyle = UITableViewCellSeparatorStyle.none;
-        self.view.addSubview(tableView);
+        self.tableView=BaseTableView.init(WithFrame: CGRect.init(x: 0, y: Double(self.businessLabel.frame.maxY)+40, width: ScreenWidth(), height: ScreenHeight()-(Double(self.businessLabel.frame.maxY)+40)), andHeaderCallbackFunc: {
+               self.getNetworkData();
+            }, andFooterCallbackFunc: {
+               self.getNetworkData();
+        });
+        self.tableView.showsHorizontalScrollIndicator = false;
+        self.tableView.delegate = self;
+        self.tableView.dataSource = self;
+        self.tableView.backgroundColor = UIColor.white;
+        self.tableView.separatorStyle = UITableViewCellSeparatorStyle.none;
+        self.view.addSubview(self.tableView);
         
     }
     
@@ -99,6 +103,9 @@ class selectBusinessViewController: BaseViewController,UITableViewDataSource,UIT
         let array=["慕溪商家","汇运公司","通天下公司","天河公司","申天公司","北方公司","势力公司","握公司","绿城公司","大界公司"];
         self.itemsArray=array;
         self.tableView.reloadData();
+        
+        self.tableView.mj_header.endRefreshing();
+        self.tableView.mj_footer.endRefreshing();
         
     }
     

@@ -16,6 +16,15 @@
 		AE29FB251D9A755F00337D9B /* publish_ico_person.png in Resources */ = {isa = PBXBuildFile; fileRef = AE29FB241D9A755F00337D9B /* publish_ico_person.png */; };
 		AE29FB2C1D9A75C800337D9B /* popupView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE29FB281D9A75C800337D9B /* popupView.m */; };
 		AE29FB2D1D9A75C800337D9B /* ReadSystemAddressBookEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = AE29FB2B1D9A75C800337D9B /* ReadSystemAddressBookEvent.m */; };
+		AE4A5FC51D9DFA33009572AF /* JHChart.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4A5FB31D9DFA33009572AF /* JHChart.m */; };
+		AE4A5FC61D9DFA33009572AF /* JHColumnChart.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4A5FB61D9DFA33009572AF /* JHColumnChart.m */; };
+		AE4A5FC71D9DFA33009572AF /* JHLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4A5FB81D9DFA33009572AF /* JHLineChart.m */; };
+		AE4A5FC81D9DFA33009572AF /* JHPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4A5FBA1D9DFA33009572AF /* JHPieChart.m */; };
+		AE4A5FC91D9DFA33009572AF /* JHPieForeBGView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4A5FBC1D9DFA33009572AF /* JHPieForeBGView.m */; };
+		AE4A5FCA1D9DFA33009572AF /* JHPieItemsView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4A5FBE1D9DFA33009572AF /* JHPieItemsView.m */; };
+		AE4A5FCB1D9DFA33009572AF /* JHRingChart.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4A5FC01D9DFA33009572AF /* JHRingChart.m */; };
+		AE4A5FCC1D9DFA33009572AF /* JHShowInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4A5FC21D9DFA33009572AF /* JHShowInfoView.m */; };
+		AE4A5FCD1D9DFA33009572AF /* JHWaveChart.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4A5FC41D9DFA33009572AF /* JHWaveChart.m */; };
 		AE5355BC1D9B9BCE003ABC18 /* PersonalCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5355BB1D9B9BCD003ABC18 /* PersonalCenterViewController.swift */; };
 		AE5355BF1D9B9E2B003ABC18 /* AnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5355BE1D9B9E2B003ABC18 /* AnalysisViewController.swift */; };
 		AE5355C11D9B9F0D003ABC18 /* PersonalCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5355C01D9B9F0D003ABC18 /* PersonalCenterView.swift */; };
@@ -23,15 +32,7 @@
 		AE5355C51D9B9FA6003ABC18 /* TaskDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5355C31D9B9FA6003ABC18 /* TaskDetailView.swift */; };
 		AE5355C71D9BA86E003ABC18 /* friend_3.png in Resources */ = {isa = PBXBuildFile; fileRef = AE5355C61D9BA86E003ABC18 /* friend_3.png */; };
 		AE5355C91D9BABBC003ABC18 /* phone.png in Resources */ = {isa = PBXBuildFile; fileRef = AE5355C81D9BABBC003ABC18 /* phone.png */; };
-		AE5355DE1D9BB2EA003ABC18 /* JHChart.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5355CC1D9BB2EA003ABC18 /* JHChart.m */; };
-		AE5355DF1D9BB2EA003ABC18 /* JHColumnChart.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5355CF1D9BB2EA003ABC18 /* JHColumnChart.m */; };
-		AE5355E01D9BB2EA003ABC18 /* JHLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5355D11D9BB2EA003ABC18 /* JHLineChart.m */; };
-		AE5355E11D9BB2EA003ABC18 /* JHPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5355D31D9BB2EA003ABC18 /* JHPieChart.m */; };
-		AE5355E21D9BB2EA003ABC18 /* JHPieForeBGView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5355D51D9BB2EA003ABC18 /* JHPieForeBGView.m */; };
-		AE5355E31D9BB2EA003ABC18 /* JHPieItemsView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5355D71D9BB2EA003ABC18 /* JHPieItemsView.m */; };
-		AE5355E41D9BB2EA003ABC18 /* JHRingChart.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5355D91D9BB2EA003ABC18 /* JHRingChart.m */; };
-		AE5355E51D9BB2EA003ABC18 /* JHShowInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5355DB1D9BB2EA003ABC18 /* JHShowInfoView.m */; };
-		AE5355E61D9BB2EA003ABC18 /* JHWaveChart.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5355DD1D9BB2EA003ABC18 /* JHWaveChart.m */; };
+		AE5797281D9E41C5009E3603 /* BaseTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5797271D9E41C5009E3603 /* BaseTableView.swift */; };
 		AE80AC9E1D9A039400F50BAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE80AC9D1D9A039400F50BAE /* AppDelegate.swift */; };
 		AE80ACA51D9A039400F50BAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE80ACA41D9A039400F50BAE /* Assets.xcassets */; };
 		AE80ACA81D9A039400F50BAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE80ACA61D9A039400F50BAE /* LaunchScreen.storyboard */; };
@@ -97,6 +98,25 @@
 		AE29FB281D9A75C800337D9B /* popupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = popupView.m; sourceTree = "<group>"; };
 		AE29FB2A1D9A75C800337D9B /* ReadSystemAddressBookEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadSystemAddressBookEvent.h; sourceTree = "<group>"; };
 		AE29FB2B1D9A75C800337D9B /* ReadSystemAddressBookEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadSystemAddressBookEvent.m; sourceTree = "<group>"; };
+		AE4A5FB21D9DFA33009572AF /* JHChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHChart.h; sourceTree = "<group>"; };
+		AE4A5FB31D9DFA33009572AF /* JHChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHChart.m; sourceTree = "<group>"; };
+		AE4A5FB41D9DFA33009572AF /* JHChartHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHChartHeader.h; sourceTree = "<group>"; };
+		AE4A5FB51D9DFA33009572AF /* JHColumnChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHColumnChart.h; sourceTree = "<group>"; };
+		AE4A5FB61D9DFA33009572AF /* JHColumnChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHColumnChart.m; sourceTree = "<group>"; };
+		AE4A5FB71D9DFA33009572AF /* JHLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLineChart.h; sourceTree = "<group>"; };
+		AE4A5FB81D9DFA33009572AF /* JHLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHLineChart.m; sourceTree = "<group>"; };
+		AE4A5FB91D9DFA33009572AF /* JHPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHPieChart.h; sourceTree = "<group>"; };
+		AE4A5FBA1D9DFA33009572AF /* JHPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHPieChart.m; sourceTree = "<group>"; };
+		AE4A5FBB1D9DFA33009572AF /* JHPieForeBGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHPieForeBGView.h; sourceTree = "<group>"; };
+		AE4A5FBC1D9DFA33009572AF /* JHPieForeBGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHPieForeBGView.m; sourceTree = "<group>"; };
+		AE4A5FBD1D9DFA33009572AF /* JHPieItemsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHPieItemsView.h; sourceTree = "<group>"; };
+		AE4A5FBE1D9DFA33009572AF /* JHPieItemsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHPieItemsView.m; sourceTree = "<group>"; };
+		AE4A5FBF1D9DFA33009572AF /* JHRingChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHRingChart.h; sourceTree = "<group>"; };
+		AE4A5FC01D9DFA33009572AF /* JHRingChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHRingChart.m; sourceTree = "<group>"; };
+		AE4A5FC11D9DFA33009572AF /* JHShowInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHShowInfoView.h; sourceTree = "<group>"; };
+		AE4A5FC21D9DFA33009572AF /* JHShowInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHShowInfoView.m; sourceTree = "<group>"; };
+		AE4A5FC31D9DFA33009572AF /* JHWaveChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHWaveChart.h; sourceTree = "<group>"; };
+		AE4A5FC41D9DFA33009572AF /* JHWaveChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHWaveChart.m; sourceTree = "<group>"; };
 		AE5355BB1D9B9BCD003ABC18 /* PersonalCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalCenterViewController.swift; sourceTree = "<group>"; };
 		AE5355BE1D9B9E2B003ABC18 /* AnalysisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalysisViewController.swift; sourceTree = "<group>"; };
 		AE5355C01D9B9F0D003ABC18 /* PersonalCenterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalCenterView.swift; sourceTree = "<group>"; };
@@ -104,25 +124,7 @@
 		AE5355C31D9B9FA6003ABC18 /* TaskDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailView.swift; sourceTree = "<group>"; };
 		AE5355C61D9BA86E003ABC18 /* friend_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = friend_3.png; sourceTree = "<group>"; };
 		AE5355C81D9BABBC003ABC18 /* phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone.png; sourceTree = "<group>"; };
-		AE5355CB1D9BB2EA003ABC18 /* JHChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHChart.h; sourceTree = "<group>"; };
-		AE5355CC1D9BB2EA003ABC18 /* JHChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHChart.m; sourceTree = "<group>"; };
-		AE5355CD1D9BB2EA003ABC18 /* JHChartHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHChartHeader.h; sourceTree = "<group>"; };
-		AE5355CE1D9BB2EA003ABC18 /* JHColumnChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHColumnChart.h; sourceTree = "<group>"; };
-		AE5355CF1D9BB2EA003ABC18 /* JHColumnChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHColumnChart.m; sourceTree = "<group>"; };
-		AE5355D01D9BB2EA003ABC18 /* JHLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLineChart.h; sourceTree = "<group>"; };
-		AE5355D11D9BB2EA003ABC18 /* JHLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHLineChart.m; sourceTree = "<group>"; };
-		AE5355D21D9BB2EA003ABC18 /* JHPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHPieChart.h; sourceTree = "<group>"; };
-		AE5355D31D9BB2EA003ABC18 /* JHPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHPieChart.m; sourceTree = "<group>"; };
-		AE5355D41D9BB2EA003ABC18 /* JHPieForeBGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHPieForeBGView.h; sourceTree = "<group>"; };
-		AE5355D51D9BB2EA003ABC18 /* JHPieForeBGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHPieForeBGView.m; sourceTree = "<group>"; };
-		AE5355D61D9BB2EA003ABC18 /* JHPieItemsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHPieItemsView.h; sourceTree = "<group>"; };
-		AE5355D71D9BB2EA003ABC18 /* JHPieItemsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHPieItemsView.m; sourceTree = "<group>"; };
-		AE5355D81D9BB2EA003ABC18 /* JHRingChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHRingChart.h; sourceTree = "<group>"; };
-		AE5355D91D9BB2EA003ABC18 /* JHRingChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHRingChart.m; sourceTree = "<group>"; };
-		AE5355DA1D9BB2EA003ABC18 /* JHShowInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHShowInfoView.h; sourceTree = "<group>"; };
-		AE5355DB1D9BB2EA003ABC18 /* JHShowInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHShowInfoView.m; sourceTree = "<group>"; };
-		AE5355DC1D9BB2EA003ABC18 /* JHWaveChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHWaveChart.h; sourceTree = "<group>"; };
-		AE5355DD1D9BB2EA003ABC18 /* JHWaveChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHWaveChart.m; sourceTree = "<group>"; };
+		AE5797271D9E41C5009E3603 /* BaseTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableView.swift; sourceTree = "<group>"; };
 		AE80AC9A1D9A039400F50BAE /* swift3Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift3Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE80AC9D1D9A039400F50BAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE80ACA41D9A039400F50BAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -248,6 +250,32 @@
 			path = ReadSystemAddressBookEvent;
 			sourceTree = "<group>";
 		};
+		AE4A5FB11D9DFA33009572AF /* JHChart */ = {
+			isa = PBXGroup;
+			children = (
+				AE4A5FB21D9DFA33009572AF /* JHChart.h */,
+				AE4A5FB31D9DFA33009572AF /* JHChart.m */,
+				AE4A5FB41D9DFA33009572AF /* JHChartHeader.h */,
+				AE4A5FB51D9DFA33009572AF /* JHColumnChart.h */,
+				AE4A5FB61D9DFA33009572AF /* JHColumnChart.m */,
+				AE4A5FB71D9DFA33009572AF /* JHLineChart.h */,
+				AE4A5FB81D9DFA33009572AF /* JHLineChart.m */,
+				AE4A5FB91D9DFA33009572AF /* JHPieChart.h */,
+				AE4A5FBA1D9DFA33009572AF /* JHPieChart.m */,
+				AE4A5FBB1D9DFA33009572AF /* JHPieForeBGView.h */,
+				AE4A5FBC1D9DFA33009572AF /* JHPieForeBGView.m */,
+				AE4A5FBD1D9DFA33009572AF /* JHPieItemsView.h */,
+				AE4A5FBE1D9DFA33009572AF /* JHPieItemsView.m */,
+				AE4A5FBF1D9DFA33009572AF /* JHRingChart.h */,
+				AE4A5FC01D9DFA33009572AF /* JHRingChart.m */,
+				AE4A5FC11D9DFA33009572AF /* JHShowInfoView.h */,
+				AE4A5FC21D9DFA33009572AF /* JHShowInfoView.m */,
+				AE4A5FC31D9DFA33009572AF /* JHWaveChart.h */,
+				AE4A5FC41D9DFA33009572AF /* JHWaveChart.m */,
+			);
+			path = JHChart;
+			sourceTree = "<group>";
+		};
 		AE5355BA1D9B9BBA003ABC18 /* PersonalCenter */ = {
 			isa = PBXGroup;
 			children = (
@@ -263,32 +291,6 @@
 				AE5355BE1D9B9E2B003ABC18 /* AnalysisViewController.swift */,
 			);
 			path = Analysis;
-			sourceTree = "<group>";
-		};
-		AE5355CA1D9BB2EA003ABC18 /* JHChart */ = {
-			isa = PBXGroup;
-			children = (
-				AE5355CB1D9BB2EA003ABC18 /* JHChart.h */,
-				AE5355CC1D9BB2EA003ABC18 /* JHChart.m */,
-				AE5355CD1D9BB2EA003ABC18 /* JHChartHeader.h */,
-				AE5355CE1D9BB2EA003ABC18 /* JHColumnChart.h */,
-				AE5355CF1D9BB2EA003ABC18 /* JHColumnChart.m */,
-				AE5355D01D9BB2EA003ABC18 /* JHLineChart.h */,
-				AE5355D11D9BB2EA003ABC18 /* JHLineChart.m */,
-				AE5355D21D9BB2EA003ABC18 /* JHPieChart.h */,
-				AE5355D31D9BB2EA003ABC18 /* JHPieChart.m */,
-				AE5355D41D9BB2EA003ABC18 /* JHPieForeBGView.h */,
-				AE5355D51D9BB2EA003ABC18 /* JHPieForeBGView.m */,
-				AE5355D61D9BB2EA003ABC18 /* JHPieItemsView.h */,
-				AE5355D71D9BB2EA003ABC18 /* JHPieItemsView.m */,
-				AE5355D81D9BB2EA003ABC18 /* JHRingChart.h */,
-				AE5355D91D9BB2EA003ABC18 /* JHRingChart.m */,
-				AE5355DA1D9BB2EA003ABC18 /* JHShowInfoView.h */,
-				AE5355DB1D9BB2EA003ABC18 /* JHShowInfoView.m */,
-				AE5355DC1D9BB2EA003ABC18 /* JHWaveChart.h */,
-				AE5355DD1D9BB2EA003ABC18 /* JHWaveChart.m */,
-			);
-			path = JHChart;
 			sourceTree = "<group>";
 		};
 		AE80AC911D9A039400F50BAE = {
@@ -337,6 +339,7 @@
 				AE80ACB41D9A0E8700F50BAE /* CommonSwift.swift */,
 				AE80ACB21D9A0C8400F50BAE /* BaseViewController.swift */,
 				AE80ACF21D9A592D00F50BAE /* BaseRequest.swift */,
+				AE5797271D9E41C5009E3603 /* BaseTableView.swift */,
 			);
 			path = base;
 			sourceTree = "<group>";
@@ -427,7 +430,7 @@
 		AE80ACFE1D9A6B2400F50BAE /* public */ = {
 			isa = PBXGroup;
 			children = (
-				AE5355CA1D9BB2EA003ABC18 /* JHChart */,
+				AE4A5FB11D9DFA33009572AF /* JHChart */,
 				AE29FB261D9A75C800337D9B /* popupView */,
 				AE29FB291D9A75C800337D9B /* ReadSystemAddressBookEvent */,
 				AE29FB191D9A749600337D9B /* sha1 */,
@@ -658,10 +661,10 @@
 				AE80AD121D9A72EB00F50BAE /* ToChooseTime.m in Sources */,
 				AE80ACF31D9A592D00F50BAE /* BaseRequest.swift in Sources */,
 				AE29FB2D1D9A75C800337D9B /* ReadSystemAddressBookEvent.m in Sources */,
-				AE5355E21D9BB2EA003ABC18 /* JHPieForeBGView.m in Sources */,
+				AE4A5FC91D9DFA33009572AF /* JHPieForeBGView.m in Sources */,
 				AE80ACEF1D9A444A00F50BAE /* selectBusinessViewController.swift in Sources */,
 				AE80AD1B1D9A73FB00F50BAE /* Utils.m in Sources */,
-				AE5355DE1D9BB2EA003ABC18 /* JHChart.m in Sources */,
+				AE4A5FC51D9DFA33009572AF /* JHChart.m in Sources */,
 				AE5355C11D9B9F0D003ABC18 /* PersonalCenterView.swift in Sources */,
 				AE5355BC1D9B9BCE003ABC18 /* PersonalCenterViewController.swift in Sources */,
 				AE80AD071D9A6DBC00F50BAE /* customAlertViewEvent.m in Sources */,
@@ -669,7 +672,7 @@
 				AE80ACEA1D9A21C000F50BAE /* TaskTableViewController.swift in Sources */,
 				AE80AC9E1D9A039400F50BAE /* AppDelegate.swift in Sources */,
 				AE80ACEC1D9A223A00F50BAE /* TadkTableViewCell.swift in Sources */,
-				AE5355E31D9BB2EA003ABC18 /* JHPieItemsView.m in Sources */,
+				AE4A5FCA1D9DFA33009572AF /* JHPieItemsView.m in Sources */,
 				AE80AD021D9A6B3E00F50BAE /* commonUIMethods.m in Sources */,
 				AE29FB211D9A749600337D9B /* GTMBase64.m in Sources */,
 				AE29FB2C1D9A75C800337D9B /* popupView.m in Sources */,
@@ -677,23 +680,24 @@
 				AE5355C51D9B9FA6003ABC18 /* TaskDetailView.swift in Sources */,
 				AE80ACB51D9A0E8700F50BAE /* CommonSwift.swift in Sources */,
 				AE80ACE71D9A1D7F00F50BAE /* HomePageViewController.swift in Sources */,
-				AE5355E01D9BB2EA003ABC18 /* JHLineChart.m in Sources */,
-				AE5355E61D9BB2EA003ABC18 /* JHWaveChart.m in Sources */,
-				AE5355E11D9BB2EA003ABC18 /* JHPieChart.m in Sources */,
+				AE5797281D9E41C5009E3603 /* BaseTableView.swift in Sources */,
+				AE4A5FC71D9DFA33009572AF /* JHLineChart.m in Sources */,
+				AE4A5FCD1D9DFA33009572AF /* JHWaveChart.m in Sources */,
+				AE4A5FC81D9DFA33009572AF /* JHPieChart.m in Sources */,
 				AE29FB171D9A747D00337D9B /* NSDictionary+ChangeNull.m in Sources */,
 				AE5355C41D9B9FA6003ABC18 /* TaskDetailViewController.swift in Sources */,
 				AE80ACFC1D9A6ABA00F50BAE /* DeliveryNoticeView.m in Sources */,
-				AE5355E41D9BB2EA003ABC18 /* JHRingChart.m in Sources */,
+				AE4A5FCB1D9DFA33009572AF /* JHRingChart.m in Sources */,
 				AE29FB231D9A749600337D9B /* NSString+HMACSHA1.m in Sources */,
 				AE29FB181D9A747D00337D9B /* NSString+safe.m in Sources */,
 				AE80ACFD1D9A6ABA00F50BAE /* DeliveryNoticeViewController.m in Sources */,
 				AE80ACB31D9A0C8400F50BAE /* BaseViewController.swift in Sources */,
 				AE80AD0B1D9A702100F50BAE /* OCBaseViewController.m in Sources */,
-				AE5355DF1D9BB2EA003ABC18 /* JHColumnChart.m in Sources */,
+				AE4A5FC61D9DFA33009572AF /* JHColumnChart.m in Sources */,
 				AE80AD111D9A72EB00F50BAE /* TimeToChoose.m in Sources */,
 				AE80ACF11D9A494B00F50BAE /* selectBusinessViewCell.swift in Sources */,
 				AE5355BF1D9B9E2B003ABC18 /* AnalysisViewController.swift in Sources */,
-				AE5355E51D9BB2EA003ABC18 /* JHShowInfoView.m in Sources */,
+				AE4A5FCC1D9DFA33009572AF /* JHShowInfoView.m in Sources */,
 				AE80AD161D9A732E00F50BAE /* Controls.m in Sources */,
 				AE80ACF61D9A61C900F50BAE /* CheckInfoViewController.swift in Sources */,
 			);

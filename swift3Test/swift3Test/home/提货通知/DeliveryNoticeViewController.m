@@ -13,6 +13,7 @@
 #import "ReadSystemAddressBookEvent.h"
 #import "TimeToChoose.h"
 
+#import "JHLineChart.h"
 
 
 @interface DeliveryNoticeViewController ()
@@ -35,6 +36,40 @@
     
     [self drawView];
     
+//    [self showFirstQuardrant];
+    
+}
+
+
+- (void)showFirstQuardrant{
+    /*        创建表对象         */
+    JHLineChart *lineChart = [[JHLineChart alloc] initWithFrame:CGRectMake(10, 100, ScreenWidth-20, 300) andLineChartType:JHChartLineValueNotForEveryX];
+    /* X轴的刻度值 可以传入NSString或NSNumber类型  并且数据结构随折线图类型变化而变化 详情看文档或其他象限X轴数据源示例*/
+    lineChart.xLineDataArr = @[@"0",@"1",@"2",@3,@4,@5,@6,@7];
+    /* 折线图的不同类型  按照象限划分 不同象限对应不同X轴刻度数据源和不同的值数据源 */
+    lineChart.lineChartQuadrantType = JHLineChartQuadrantTypeFirstQuardrant;
+    /* 数据源 */
+    lineChart.valueArr = @[@[@"1",@"12",@"1",@6,@4,@9,@6,@7],@[@"3",@"1",@"2",@16,@2,@3,@5,@10]];
+    /* 值折线的折线颜色 默认暗黑色*/
+    lineChart.valueLineColorArr =@[ [UIColor purpleColor], [UIColor brownColor]];
+    /* 值点的颜色 默认橘黄色*/
+    lineChart.pointColorArr = @[[UIColor orangeColor],[UIColor yellowColor]];
+    /* X和Y轴的颜色 默认暗黑色 */
+    lineChart.xAndYLineColor = [UIColor blackColor];
+    /* XY轴的刻度颜色 m */
+    lineChart.xAndYNumberColor = [UIColor blueColor];
+    /* 坐标点的虚线颜色 */
+    lineChart.positionLineColorArr = @[[UIColor blueColor],[UIColor greenColor]];
+//    /*        设置是否填充内容 默认为否         */
+//    lineChart.contentFill = YES;
+//    /*        设置为曲线路径         */
+//    lineChart.pathCurve = YES;
+//    
+//    /*        设置填充颜色数组         */
+//    lineChart.contentFillColorArr = @[[UIColor colorWithRed:0.500 green:0.000 blue:0.500 alpha:0.468],[UIColor colorWithRed:0.500 green:0.214 blue:0.098 alpha:0.468]];
+    [self.view addSubview:lineChart];
+    /*        开始动画         */
+    [lineChart showAnimation];
 }
 
 
