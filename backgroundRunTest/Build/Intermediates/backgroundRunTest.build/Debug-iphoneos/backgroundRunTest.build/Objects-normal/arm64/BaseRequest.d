@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/a43696467/IOS文本/TestProduct/backgroundRunTest/backgroundRunTest/base/BaseRequest.m
+  /Users/a43696467/Documents/guide/backgroundRunTest/backgroundRunTest/base/BaseRequest.m
