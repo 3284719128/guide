@@ -163,5 +163,53 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "backgroundRunTest/AppDelegate.m"
+            timestampString = "497872081.644659"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "200"
+            endingLineNumber = "200"
+            landmarkName = "-uploadCurrentUserLocation"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AppDelegate uploadCurrentUserLocation]"
+                  moduleName = "backgroundRunTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a43696467/Documents/guide/backgroundRunTest/backgroundRunTest/AppDelegate.m"
+                  timestampString = "497872081.867847"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "201"
+                  endingLineNumber = "201"
+                  offsetFromSymbolStart = "920">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__40-[AppDelegate uploadCurrentUserLocation]_block_invoke"
+                  moduleName = "backgroundRunTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a43696467/Documents/guide/backgroundRunTest/backgroundRunTest/AppDelegate.m"
+                  timestampString = "497872081.869598"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "201"
+                  endingLineNumber = "201"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
