@@ -1,0 +1,7 @@
+platform :ios, '8.0'
+
+target 'backgroundRunTest' do
+        pod 'AFNetworking'
+	pod 'BaiduMapKit'
+        pod 'SBJson'
+end
