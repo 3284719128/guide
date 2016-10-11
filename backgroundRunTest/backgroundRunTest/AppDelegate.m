@@ -188,7 +188,7 @@ int uploadCurrentLocationNumber=0;
     NSString* latStr=[NSString stringWithFormat:@"%f",_currentUserLocationCoordinate.latitude];
     NSString* lonStr=[NSString stringWithFormat:@"%f",_currentUserLocationCoordinate.longitude];
     NSDictionary* params = @{
-                                 @"billId":@"18112345678",
+                                 @"billId":PhoneNumber,
                                  @"latitude":latStr,
                                  @"longitude":lonStr,
                                      
@@ -201,7 +201,7 @@ int uploadCurrentLocationNumber=0;
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         
         
-        [BaseRequest requestWithInCode2:@"310002" Parameters:params Block:^(NSDictionary *contentDict, NSString *message) {
+        [BaseRequest requestWithInCode:@"40064" Parameters:params Block:^(NSDictionary *contentDict, NSString *message) {
             
             if ([message isEqualToString:@"SUCESS"]) {
                 

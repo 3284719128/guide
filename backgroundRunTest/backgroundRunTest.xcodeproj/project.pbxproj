@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4109E03BBEE4C195E49648EE /* libPods-backgroundRunTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4663D089F26F1E8A5E11292C /* libPods-backgroundRunTest.a */; };
+		AE3C12CB1DACE7F2005041A9 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3C12C51DACE7F2005041A9 /* GTMBase64.m */; };
+		AE3C12CC1DACE7F2005041A9 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3C12C81DACE7F2005041A9 /* NSData+Base64.m */; };
+		AE3C12CD1DACE7F2005041A9 /* NSString+HMACSHA1.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3C12CA1DACE7F2005041A9 /* NSString+HMACSHA1.m */; };
+		AE3C12D01DACE7FE005041A9 /* NSString+safe.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3C12CF1DACE7FE005041A9 /* NSString+safe.m */; };
 		AE74A2181DAC7B9E005E33F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE74A2171DAC7B9E005E33F0 /* main.m */; };
 		AE74A21B1DAC7B9E005E33F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE74A21A1DAC7B9E005E33F0 /* AppDelegate.m */; };
 		AE74A21E1DAC7B9E005E33F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE74A21D1DAC7B9E005E33F0 /* ViewController.m */; };
@@ -23,6 +27,15 @@
 		4663D089F26F1E8A5E11292C /* libPods-backgroundRunTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-backgroundRunTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CDA29C3770741D0DF2778D7 /* Pods-backgroundRunTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-backgroundRunTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-backgroundRunTest/Pods-backgroundRunTest.release.xcconfig"; sourceTree = "<group>"; };
 		A7D48B43125B7358E7124296 /* Pods-backgroundRunTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-backgroundRunTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-backgroundRunTest/Pods-backgroundRunTest.debug.xcconfig"; sourceTree = "<group>"; };
+		AE3C12C41DACE7F2005041A9 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		AE3C12C51DACE7F2005041A9 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		AE3C12C61DACE7F2005041A9 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		AE3C12C71DACE7F2005041A9 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		AE3C12C81DACE7F2005041A9 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		AE3C12C91DACE7F2005041A9 /* NSString+HMACSHA1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HMACSHA1.h"; sourceTree = "<group>"; };
+		AE3C12CA1DACE7F2005041A9 /* NSString+HMACSHA1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HMACSHA1.m"; sourceTree = "<group>"; };
+		AE3C12CE1DACE7FE005041A9 /* NSString+safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+safe.h"; sourceTree = "<group>"; };
+		AE3C12CF1DACE7FE005041A9 /* NSString+safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+safe.m"; sourceTree = "<group>"; };
 		AE74A2131DAC7B9E005E33F0 /* backgroundRunTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = backgroundRunTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE74A2171DAC7B9E005E33F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AE74A2191DAC7B9E005E33F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -41,6 +54,7 @@
 		AE74A2381DACBCB3005E33F0 /* Reachability2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability2.m; sourceTree = "<group>"; };
 		AE74A23B1DACC29E005E33F0 /* BaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRequest.h; sourceTree = "<group>"; };
 		AE74A23C1DACC29E005E33F0 /* BaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRequest.m; sourceTree = "<group>"; };
+		AE8FAE6A1DACE75C00FDFA5C /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +78,20 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		AE3C12C31DACE7F2005041A9 /* sha1 */ = {
+			isa = PBXGroup;
+			children = (
+				AE3C12C41DACE7F2005041A9 /* GTMBase64.h */,
+				AE3C12C51DACE7F2005041A9 /* GTMBase64.m */,
+				AE3C12C61DACE7F2005041A9 /* GTMDefines.h */,
+				AE3C12C71DACE7F2005041A9 /* NSData+Base64.h */,
+				AE3C12C81DACE7F2005041A9 /* NSData+Base64.m */,
+				AE3C12C91DACE7F2005041A9 /* NSString+HMACSHA1.h */,
+				AE3C12CA1DACE7F2005041A9 /* NSString+HMACSHA1.m */,
+			);
+			path = sha1;
+			sourceTree = "<group>";
+		};
 		AE74A20A1DAC7B9E005E33F0 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +113,7 @@
 		AE74A2151DAC7B9E005E33F0 /* backgroundRunTest */ = {
 			isa = PBXGroup;
 			children = (
+				AE3C12C31DACE7F2005041A9 /* sha1 */,
 				AE74A23A1DACC29E005E33F0 /* base */,
 				AE74A2361DACBCB3005E33F0 /* Reachability2 */,
 				AE74A2321DAC924B005E33F0 /* Utils */,
@@ -140,6 +169,9 @@
 		AE74A23A1DACC29E005E33F0 /* base */ = {
 			isa = PBXGroup;
 			children = (
+				AE3C12CE1DACE7FE005041A9 /* NSString+safe.h */,
+				AE3C12CF1DACE7FE005041A9 /* NSString+safe.m */,
+				AE8FAE6A1DACE75C00FDFA5C /* Common.h */,
 				AE74A23B1DACC29E005E33F0 /* BaseRequest.h */,
 				AE74A23C1DACC29E005E33F0 /* BaseRequest.m */,
 			);
@@ -282,12 +314,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE74A21E1DAC7B9E005E33F0 /* ViewController.m in Sources */,
+				AE3C12CD1DACE7F2005041A9 /* NSString+HMACSHA1.m in Sources */,
 				AE74A2311DAC91A3005E33F0 /* UserLocationLogEvent.m in Sources */,
+				AE3C12D01DACE7FE005041A9 /* NSString+safe.m in Sources */,
 				AE74A21B1DAC7B9E005E33F0 /* AppDelegate.m in Sources */,
+				AE3C12CB1DACE7F2005041A9 /* GTMBase64.m in Sources */,
 				AE74A2391DACBCB3005E33F0 /* Reachability2.m in Sources */,
 				AE74A23D1DACC29E005E33F0 /* BaseRequest.m in Sources */,
 				AE74A2351DAC9261005E33F0 /* Utils.m in Sources */,
 				AE74A2181DAC7B9E005E33F0 /* main.m in Sources */,
+				AE3C12CC1DACE7F2005041A9 /* NSData+Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,7 +436,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4JMH54968S;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/a43696467/IOS文本/TestProduct/backgroundRunTest/backgroundRunTest/backgroundRunTest.pch";
+				GCC_PREFIX_HEADER = /Users/a43696467/Documents/guide/backgroundRunTest/backgroundRunTest/backgroundRunTest.pch;
 				INFOPLIST_FILE = backgroundRunTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.err.backgroundRunTest;
@@ -415,7 +451,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4JMH54968S;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/a43696467/IOS文本/TestProduct/backgroundRunTest/backgroundRunTest/backgroundRunTest.pch";
+				GCC_PREFIX_HEADER = /Users/a43696467/Documents/guide/backgroundRunTest/backgroundRunTest/backgroundRunTest.pch;
 				INFOPLIST_FILE = backgroundRunTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.err.backgroundRunTest;

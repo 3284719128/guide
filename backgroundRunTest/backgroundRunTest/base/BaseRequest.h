@@ -11,6 +11,8 @@
 @interface BaseRequest : NSObject
 
 
++(void)requestWithInCode:(NSString *)InCode Parameters:(NSDictionary *)parameters Block:(void (^)(NSDictionary* contentDict,NSString* message))block;
+
 #pragma mark- 连接Node.js服务器,其他人勿用.
 + (void)requestWithInCode2:(NSString *)InCode Parameters:(NSDictionary *)parameters Block:(void (^)(NSDictionary* contentDict,NSString* message))block;
 

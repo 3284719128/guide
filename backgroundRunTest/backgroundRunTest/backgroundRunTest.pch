@@ -13,8 +13,8 @@
 #ifdef __OBJC__
 
 #import "Utils.h"
-
 #import "BaseRequest.h"
+#import "Common.h"
 
 #import <BaiduMapAPI_Base/BMKBaseComponent.h>//引入base相关所有的头文件
 

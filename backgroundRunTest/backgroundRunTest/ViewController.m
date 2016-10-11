@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "AppDelegate.h"
+
 @interface ViewController ()
 
 @end
@@ -30,14 +32,16 @@
 
 -(void)buttonAction:(UIButton*) sender{
     
+    AppDelegate* delegate=(AppDelegate*)[[UIApplication sharedApplication] delegate];
+    
     NSDictionary* params = @{
-                             @"billId":@"18112345678",
-                             @"latitude":@"23.0",
-                             @"longitude":@"113.0",
+                             @"billId":PhoneNumber,
+                             @"latitude":[NSString stringWithFormat:@"%f",delegate.currentUserLocationCoordinate.latitude],
+                             @"longitude":[NSString stringWithFormat:@"%f",delegate.currentUserLocationCoordinate.longitude],
                              
                              };
     
-    [BaseRequest requestWithInCode2:@"310002" Parameters:params Block:^(NSDictionary *contentDict, NSString *message) {
+    [BaseRequest requestWithInCode:@"40064" Parameters:params Block:^(NSDictionary *contentDict, NSString *message) {
         
         if ([message isEqualToString:@"SUCESS"]) {
             

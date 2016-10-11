@@ -15,7 +15,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "57"
             endingLineNumber = "57"
-            landmarkName = "+requestWithInCode2:Parameters:Block:"
+            landmarkName = "+requestWithInCode:Parameters:Block:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -31,7 +31,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "85"
             endingLineNumber = "85"
-            landmarkName = "+requestWithInCode2:Parameters:Block:"
+            landmarkName = "+requestWithInCode:Parameters:Block:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -80,6 +80,86 @@
             startingLineNumber = "337"
             endingLineNumber = "337"
             landmarkName = "-didUpdateBMKUserLocation:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "backgroundRunTest/base/BaseRequest.m"
+            timestampString = "497871723.440611"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "+requestWithInCode:Parameters:Block:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[BaseRequest requestWithInCode:Parameters:Block:]"
+                  moduleName = "backgroundRunTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a43696467/Documents/guide/backgroundRunTest/backgroundRunTest/base/BaseRequest.m"
+                  timestampString = "497871723.669525"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "853">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__50+[BaseRequest requestWithInCode:Parameters:Block:]_block_invoke"
+                  moduleName = "backgroundRunTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a43696467/Documents/guide/backgroundRunTest/backgroundRunTest/base/BaseRequest.m"
+                  timestampString = "497871723.672057"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "109">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "backgroundRunTest/base/BaseRequest.m"
+            timestampString = "497871748.367232"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "+requestWithInCode:Parameters:Block:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "backgroundRunTest/ViewController.m"
+            timestampString = "497871782.014438"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "-buttonAction:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
