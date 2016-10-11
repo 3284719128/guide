@@ -146,7 +146,7 @@ UIBackgroundTaskIdentifier BackgroundTaskId;
     self.LocationService=[[BMKLocationService alloc] init];
     self.LocationService.delegate=self;
     self.LocationService.desiredAccuracy=kCLLocationAccuracyNearestTenMeters;
-    self.LocationService.distanceFilter=20;
+    self.LocationService.distanceFilter=10;
     self.LocationService.pausesLocationUpdatesAutomatically=NO;
     self.LocationService.allowsBackgroundLocationUpdates=YES;
     [self.LocationService startUserLocationService];
@@ -241,7 +241,7 @@ int uploadCurrentLocationNumber=0;
     NSLog(@"distanct:%f",distance);
     
     
-    if (distance >= 30) {
+    if (distance >= 30 || [self.currentUserAddressStr isEqualToString:@""]) {
         
         [self reverseGeoCodeSearch];
         
@@ -253,16 +253,19 @@ int uploadCurrentLocationNumber=0;
 
 -(void)reverseGeoCodeSearch{
     
-    _searcher=[[BMKGeoCodeSearch alloc] init];
-    _searcher.delegate=self;
-    BMKReverseGeoCodeOption* option=[[BMKReverseGeoCodeOption alloc] init];
-    option.reverseGeoPoint=_currentUserLocationCoordinate;
-    BOOL flag=[_searcher reverseGeoCode:option];
-    if(flag){
-        NSLog(@"反geo检索发送成功");
-    }else{
-        NSLog(@"反geo检索发送失败");
-    }
+//    if (_searcher == nil) {
+//        _searcher=[[BMKGeoCodeSearch alloc] init];
+//    };
+//    
+//    _searcher.delegate=self;
+//    BMKReverseGeoCodeOption* option=[[BMKReverseGeoCodeOption alloc] init];
+//    option.reverseGeoPoint=_currentUserLocationCoordinate;
+//    BOOL flag=[_searcher reverseGeoCode:option];
+//    if(flag){
+//        NSLog(@"反geo检索发送成功");
+//    }else{
+//        NSLog(@"反geo检索发送失败");
+//    }
 }
 
 - (void)onGetReverseGeoCodeResult:(BMKGeoCodeSearch *)searcher result:(BMKReverseGeoCodeResult *)result errorCode:(BMKSearchErrorCode)error{
@@ -355,10 +358,10 @@ int backgroundRunNumber=0;
     NSDictionary* CurrentUserLocationDict=@{@"lat":lag2,@"lon":lon2,};
     [userDefaults setObject:CurrentUserLocationDict forKey:@"CurrentUserLocation"];
     [userDefaults synchronize];
-
-    [self AppLocationDistanceIntervalJudge];
     
     [self BMKMetersBetweenMapPoints:lastUserLocationCoordinate :_currentUserLocationCoordinate];
+
+    [self AppLocationDistanceIntervalJudge];
     
     NSString* contentStr=[NSString stringWithFormat:@"更新时间:%@,坐标(纬度:%@,经度:%@)",[Utils stringFromDateWithFormat:[NSDate date] andFormatStr:@"yyyy-MM-dd HH:mm:ss"],lag2,lon2];
     [self.userLocationLogE logEvent:@"百度位置更新" andContentStr:contentStr andTypeNum:2 andIsTerminate:NO];
