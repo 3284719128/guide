@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<BMKGeoCodeSearchDelegate>
 
+
+@property (nonatomic,strong) BMKGeoCodeSearch* searcher;
 
 @end
 

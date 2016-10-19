@@ -12,10 +12,11 @@
 
 #define ScheduledTimerWithTimeInterval 10
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate,BMKLocationServiceDelegate,BMKGeoCodeSearchDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate,BMKGeneralDelegate,BMKLocationServiceDelegate,BMKGeoCodeSearchDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property(nonatomic,strong)BMKMapManager* mapManager;
 @property (nonatomic, strong) BMKLocationService* LocationService;
 @property (nonatomic,strong) BMKGeoCodeSearch* searcher;
 

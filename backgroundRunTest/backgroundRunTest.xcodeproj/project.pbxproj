@@ -13,7 +13,7 @@
 		AE3C12CD1DACE7F2005041A9 /* NSString+HMACSHA1.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3C12CA1DACE7F2005041A9 /* NSString+HMACSHA1.m */; };
 		AE3C12D01DACE7FE005041A9 /* NSString+safe.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3C12CF1DACE7FE005041A9 /* NSString+safe.m */; };
 		AE74A2181DAC7B9E005E33F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE74A2171DAC7B9E005E33F0 /* main.m */; };
-		AE74A21B1DAC7B9E005E33F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE74A21A1DAC7B9E005E33F0 /* AppDelegate.m */; };
+		AE74A21B1DAC7B9E005E33F0 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = AE74A21A1DAC7B9E005E33F0 /* AppDelegate.mm */; };
 		AE74A21E1DAC7B9E005E33F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE74A21D1DAC7B9E005E33F0 /* ViewController.m */; };
 		AE74A2231DAC7B9E005E33F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE74A2221DAC7B9E005E33F0 /* Assets.xcassets */; };
 		AE74A2261DAC7B9E005E33F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE74A2241DAC7B9E005E33F0 /* LaunchScreen.storyboard */; };
@@ -39,7 +39,7 @@
 		AE74A2131DAC7B9E005E33F0 /* backgroundRunTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = backgroundRunTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE74A2171DAC7B9E005E33F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AE74A2191DAC7B9E005E33F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AE74A21A1DAC7B9E005E33F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE74A21A1DAC7B9E005E33F0 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		AE74A21C1DAC7B9E005E33F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AE74A21D1DAC7B9E005E33F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AE74A2221DAC7B9E005E33F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -119,7 +119,7 @@
 				AE74A2321DAC924B005E33F0 /* Utils */,
 				AE74A22E1DAC91A3005E33F0 /* UserLocationLogEvent */,
 				AE74A2191DAC7B9E005E33F0 /* AppDelegate.h */,
-				AE74A21A1DAC7B9E005E33F0 /* AppDelegate.m */,
+				AE74A21A1DAC7B9E005E33F0 /* AppDelegate.mm */,
 				AE74A21C1DAC7B9E005E33F0 /* ViewController.h */,
 				AE74A21D1DAC7B9E005E33F0 /* ViewController.m */,
 				AE74A2221DAC7B9E005E33F0 /* Assets.xcassets */,
@@ -317,7 +317,7 @@
 				AE3C12CD1DACE7F2005041A9 /* NSString+HMACSHA1.m in Sources */,
 				AE74A2311DAC91A3005E33F0 /* UserLocationLogEvent.m in Sources */,
 				AE3C12D01DACE7FE005041A9 /* NSString+safe.m in Sources */,
-				AE74A21B1DAC7B9E005E33F0 /* AppDelegate.m in Sources */,
+				AE74A21B1DAC7B9E005E33F0 /* AppDelegate.mm in Sources */,
 				AE3C12CB1DACE7F2005041A9 /* GTMBase64.m in Sources */,
 				AE74A2391DACBCB3005E33F0 /* Reachability2.m in Sources */,
 				AE74A23D1DACC29E005E33F0 /* BaseRequest.m in Sources */,
